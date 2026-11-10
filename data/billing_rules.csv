@@ -1,0 +1,14 @@
+rule_id,rule_name,rule_value,description
+B-01,Service price,Match catalog standard price,Each service line uses its catalog standard unit price. Services are not taxable.
+B-02,Product price,Match catalog standard price,Each product line uses its catalog standard unit price. Products use the fictional tax rule.
+B-03,Tax,0.08,Fictional tax rate on products only; not a statement of Texas law.
+B-04,Line amount,quantity * unit_price,Round monetary amounts to two decimal places.
+B-05,Subtotal,services_total + products_total,Sum recorded line amounts.
+B-06,Courtesy discount,10.00,"Fixed amount, only when the visit notes document authorization. Applies to service charges before tax. At most one discount per invoice."
+B-07,Senior wellness discount,10% of the EX-105 standard price (9.00),"Only for a Senior wellness visit for a cat aged 10 or older, with EX-105 billed and authorization documented in the visit notes. Applies to service charges before tax. Not combined with B-06."
+B-08,Total due,subtotal - discount + tax,Product tax is based on undiscounted products; discounts apply to service charges only.
+B-09,Duplicate charge,Review notes,A repeated code is not automatically an error; it is a duplicate only when the notes establish fewer occurrences than billed.
+B-10,Authority,Staff decision required,Temperance flags and explains; it cannot finalize corrections.
+B-11,Documented service,Billing must agree with visit notes,"A charge for a service the notes record as declined, canceled, not administered, or performed fewer times than billed is a discrepancy."
+B-12,Code validity,Code exists and description matches,Each billed code must be in the catalog with its catalog description. A mismatched description is a discrepancy; an unknown code requires staff review.
+B-13,Documentation completeness,Finalized documentation,"Pending, unsigned, or unclear documentation for a billed service requires staff review. A billed service the notes do not mention is not, by itself, a documentation problem."

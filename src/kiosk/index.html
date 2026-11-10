@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Paws &amp; Order Cat Hospital</title>
+  <link rel="stylesheet" href="/kiosk.css">
+  <script type="module" src="/kiosk.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-bar">
+    <p class="site-name">Paws &amp; Order Cat Hospital</p>
+    <p class="site-note">Fictional demonstration. All clients, pets and invoices are synthetic.</p>
+    <button type="button" class="demo-button" data-action="behind">Behind the Desk</button>
+    <button type="button" class="demo-button" data-action="demos">View Demonstrations</button>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="screen scene" id="screen-exterior" aria-labelledby="exterior-title">
+      <h1 id="exterior-title" class="visually-hidden">Outside Paws &amp; Order Cat Hospital</h1>
+      <div class="stage">
+        <div class="art-frame">
+          <img src="/art/hospital-exterior-02.svg" width="1600" height="900"
+               alt="The front of Paws &amp; Order Cat Hospital, a small cream building with a green sign, a help-wanted poster in the window, and a door sign reading “Please be patient. Short staffed.”">
+          <button type="button" class="hotspot hotspot-door" data-go="desk" tabindex="-1" aria-hidden="true"></button>
+        </div>
+      </div>
+      <div class="scene-actions">
+        <button type="button" class="primary" data-go="desk">Go inside</button>
+      </div>
+    </section>
+
+    <section class="screen scene" id="screen-desk" aria-labelledby="desk-title" hidden>
+      <h1 id="desk-title" class="visually-hidden">The front desk</h1>
+      <div class="stage stage-with-dialogue">
+        <div class="art-frame">
+          <img src="/art/hospital-scene-05.svg" width="1600" height="900"
+               alt="Inside the hospital. Hearthy, a gray tabby in carrot-print scrubs, works at a cluttered front desk. A billing assistance terminal stands beside her.">
+          <button type="button" class="hotspot hotspot-kiosk" data-go="terminal" tabindex="-1" aria-hidden="true"></button>
+          <button type="button" class="hotspot hotspot-story" data-action="behind" tabindex="-1" aria-hidden="true"></button>
+          <button type="button" class="bell-button" id="desk-bell" aria-label="Ring the desk bell"></button>
+          <span class="ding" id="ding" aria-hidden="true">Ding!</span>
+        </div>
+        <div class="dialogue" role="group" aria-labelledby="dialogue-speaker">
+          <div class="dialogue-line">
+            <p class="dialogue-speaker" id="dialogue-speaker">Hearthy</p>
+            <p id="hearthy-text" aria-live="polite">Temperance is next to the front desk, on the right-hand side.</p>
+          </div>
+          <div class="dialogue-actions">
+            <button type="button" class="primary" data-go="terminal">Use the terminal</button>
+            <button type="button" class="secondary" id="intro-skip" data-go="terminal" hidden>Skip to the terminal</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen terminal-screen" id="screen-terminal" aria-labelledby="terminal-title" hidden>
+      <div class="kiosk">
+        <div class="kiosk-crown" aria-hidden="true">TEMPERANCE</div>
+        <div class="kiosk-face">
+          <div class="kiosk-head">
+            <div class="kiosk-title">
+              <h1 id="terminal-title">Paws &amp; Order Billing Assistance Terminal</h1>
+              <p class="kiosk-version">kioskware v16.2.17</p>
+            </div>
+            <button type="button" class="return-hospital" id="return-hospital" data-go="desk"><span aria-hidden="true">&larr; </span>Return to Hospital</button>
+            <div class="ticker" id="ticker" hidden>
+              <p class="ticker-text" id="ticker-text" aria-live="off"></p>
+              <button type="button" class="ticker-toggle" id="ticker-toggle" aria-pressed="false">Pause messages</button>
+            </div>
+          </div>
+          <p class="allowance" id="allowance" aria-live="polite">Checking today’s live reviews…</p>
+          <div class="kiosk-body" id="terminal-body"></div>
+        </div>
+        <div class="kiosk-base" aria-hidden="true"><span class="lamp green"></span><span class="lamp"></span><span class="slot"></span></div>
+      </div>
+      <aside class="paper" id="paper" aria-labelledby="paper-title" hidden></aside>
+    </section>
+
+    <section class="screen behind-screen" id="screen-behind" aria-labelledby="behind-title" hidden>
+      <article class="behind-card">
+        <h1 id="behind-title">Behind the Desk</h1>
+        <div id="behind-body"><p>Loading…</p></div>
+        <button type="button" class="primary" data-action="back">Return</button>
+      </article>
+    </section>
+
+    <section class="screen closing-screen" id="screen-closing" aria-labelledby="closing-title" hidden>
+      <div class="closing-card">
+        <h1 id="closing-title" class="visually-hidden">Thank you</h1>
+        <p class="closing-message">Your satisfaction is our pleasure. Thank you for stopping in, see you next time!</p>
+        <button type="button" class="primary" data-go="exterior">Start over</button>
+      </div>
+    </section>
+  </main>
+
+  <p class="visually-hidden" id="announcer" aria-live="polite"></p>
+  <noscript><p class="noscript">The terminal needs JavaScript to run.</p></noscript>
+</body>
+</html>

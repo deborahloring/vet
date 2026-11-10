@@ -1,0 +1,452 @@
+/* Paws & Order kiosk. Palette taken from the approved artwork. */
+:root {
+  --ink: #3b3a36;
+  --wood: #b9855a;
+  --wood-dark: #8d5f3e;
+  --ivory: #f4ecdb;
+  --paper: #fbf7ef;
+  --sage: #a9b78c;
+  --sage-dark: #5f6f47;
+  --carrot: #e9964a;
+  --carrot-deep: #a8521a;
+  --carrot-light: #f6c48c;
+  --bezel: #ece3cd;
+  --bezel-shade: #c8bd9f;
+  --screen-top: #37513f;
+  --screen-bottom: #26392c;
+  --screen-text: #f4ecdb;
+  --screen-dim: #c9d3b9;
+  --focus: #f6c48c;
+  --serif: Georgia, "Times New Roman", serif;
+  --mono: ui-monospace, "Cascadia Mono", Consolas, "Courier New", monospace;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--ivory); }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--ivory);
+  color: var(--ink);
+  font: 1rem/1.5 var(--serif);
+}
+[hidden] { display: none !important; }
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.skip-link { position: absolute; left: 1rem; top: -3rem; z-index: 10; background: var(--paper); padding: .5rem 1rem; border: 2px solid var(--ink); }
+.skip-link:focus { top: 1rem; }
+:focus-visible { outline: 3px solid var(--carrot-deep); outline-offset: 3px; }
+.terminal-screen :focus-visible { outline-color: var(--focus); }
+/* Headings receive programmatic focus after a screen change; they are not interactive. */
+h1[tabindex="-1"]:focus, h2[tabindex="-1"]:focus { outline: none; }
+
+/* Site bar: always offers View Demonstrations. */
+.site-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: .25rem 1rem;
+  padding: .5rem 1rem; background: var(--sage-dark); color: var(--paper);
+}
+.site-name { margin: 0; font-weight: bold; }
+.site-note { margin: 0; font-size: .875rem; flex: 1 1 16rem; }
+.demo-button {
+  font: inherit; font-size: .9375rem; cursor: pointer;
+  background: var(--paper); color: var(--ink); border: 2px solid var(--paper); border-radius: .375rem; padding: .375rem .875rem;
+}
+.demo-button:hover { background: var(--carrot-light); border-color: var(--carrot-light); }
+.demo-button:focus-visible { outline-color: var(--carrot-light); }
+
+main { display: block; }
+main:focus { outline: none; }
+.screen { padding: 1rem; }
+
+/* Scenes */
+/* Scenes are sized to the window height too, so the scene's own controls stay in view without scrolling
+   on short desktop windows (the reserve covers the site bar, page padding and the controls). */
+.stage {
+  position: relative; margin: 0 auto; min-width: min(100%, 30rem);
+  width: min(100%, 1200px, calc((100vh - 10.5rem) * 16 / 9));
+  width: min(100%, 1200px, calc((100dvh - 10.5rem) * 16 / 9));
+}
+.stage.stage-with-dialogue {
+  width: min(100%, 1200px, calc((100vh - 12.5rem) * 16 / 9));
+  width: min(100%, 1200px, calc((100dvh - 12.5rem) * 16 / 9));
+  border-radius: .5rem; box-shadow: 0 2px 14px rgba(59, 58, 54, .18);
+}
+.art-frame { position: relative; aspect-ratio: 16 / 9; }
+.stage img, .stage .scene-art { display: block; width: 100%; height: 100%; border-radius: .5rem; box-shadow: 0 2px 14px rgba(59, 58, 54, .18); }
+.stage-with-dialogue img, .stage-with-dialogue .scene-art { border-radius: .5rem .5rem 0 0; box-shadow: none; }
+.hotspot {
+  position: absolute; background: transparent; border: 0; border-radius: .5rem; cursor: pointer;
+}
+.hotspot:hover { background: rgba(246, 196, 140, .18); }
+.hotspot-door { left: 51.2%; top: 32%; width: 12.3%; height: 50.5%; }
+.hotspot-kiosk { left: 70.3%; top: 30.3%; width: 12.6%; height: 32%; }
+/* The pinned "The Story of Paws & Order" flyer opens Behind the Desk (the header button is the keyboard route). */
+.hotspot-story { left: 56%; top: 13.8%; width: 8.5%; height: 20%; }
+/* The drawn desk bell is a real button (keyboard and pointer); it rings silently. */
+.bell-button {
+  position: absolute; left: 62.4%; top: 63.6%; width: 5.2%; height: 7.6%; min-width: 24px; min-height: 24px;
+  padding: 0; background: transparent; border: 0; border-radius: .5rem; cursor: pointer;
+}
+.bell-button:hover, .bell-button:focus-visible { background: rgba(246, 196, 140, .22); }
+.bell-button:focus-visible { outline: 3px solid var(--carrot-deep); outline-offset: 2px; }
+.ding {
+  position: absolute; left: 65%; top: 58%; transform: translate(-50%, 0); opacity: 0; pointer-events: none;
+  font: bold clamp(.875rem, 1.9vw, 1.375rem)/1 var(--serif); color: var(--carrot-deep);
+  text-shadow: 0 0 3px var(--paper), 0 0 6px var(--paper);
+}
+.ding.ringing { opacity: 1; }
+/* Hearthy's lines: a subtitle panel joined to the bottom of the scene, so no artwork is covered. */
+.dialogue {
+  display: flex; align-items: center; gap: .75rem 1.5rem; min-height: 5.25rem;
+  padding: .75rem 1.25rem .875rem 1.5rem; border-top: 3px solid var(--carrot); border-radius: 0 0 .5rem .5rem;
+  background: linear-gradient(180deg, #43342a, #33281f); color: var(--paper);
+}
+.dialogue-line { flex: 1 1 auto; min-width: 0; }
+.dialogue-speaker { margin: 0 0 .125rem; font-size: .8125rem; font-weight: bold; letter-spacing: .12em; text-transform: uppercase; color: var(--carrot-light); }
+#hearthy-text { margin: 0; font-size: clamp(1rem, 1.5vw, 1.1875rem); line-height: 1.45; }
+.dialogue-actions { flex: none; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .625rem; }
+.dialogue button.primary { background: var(--carrot-light); color: #33281f; font-weight: bold; padding: .625rem 1.25rem; font-size: 1rem; }
+.dialogue button.primary:hover { background: var(--paper); }
+.dialogue button.secondary { margin-left: 0; background: transparent; color: var(--paper); border-color: var(--paper); padding: .5rem 1rem; }
+.dialogue button.secondary:hover { background: rgba(251, 247, 239, .12); }
+.dialogue :focus-visible { outline-color: var(--focus); }
+/* A narrow scene (short or small windows) puts the buttons on their own row so the line is never squeezed. */
+.stage-with-dialogue { container-type: inline-size; }
+@container (max-width: 46rem) {
+  .dialogue { flex-wrap: wrap; padding: .625rem 1rem .75rem; }
+  .dialogue-line { flex-basis: 100%; }
+  .dialogue-actions { justify-content: flex-start; }
+}
+/* Very short windows: reserve room for the two-row panel. */
+@media (max-height: 40rem) and (min-width: 40.0625rem) {
+  .stage.stage-with-dialogue {
+    width: min(100%, 1200px, calc((100vh - 15rem) * 16 / 9));
+    width: min(100%, 1200px, calc((100dvh - 15rem) * 16 / 9));
+  }
+}
+.scene-actions { display: flex; justify-content: center; padding: 1rem 0 .5rem; }
+
+button.primary, a.button, .terminal-screen button {
+  font: inherit; cursor: pointer; text-decoration: none; display: inline-block;
+}
+button.primary {
+  background: var(--carrot-deep); color: var(--paper); border: 0; border-radius: .5rem;
+  padding: .75rem 1.5rem; font-size: 1.0625rem;
+}
+button.primary:hover { background: #8c4414; }
+button.secondary {
+  font: inherit; cursor: pointer; background: var(--paper); color: var(--carrot-deep); border: 2px solid var(--carrot-deep);
+  border-radius: .5rem; padding: .625rem 1.25rem; font-size: 1rem; margin-left: .75rem;
+}
+button.secondary:hover { background: #fbe6cf; }
+/* Behind the Desk */
+.behind-screen { display: flex; justify-content: center; }
+.behind-card { max-width: 46rem; background: var(--paper); border: 2px solid var(--wood); border-radius: 1rem; padding: 1.5rem 1.75rem; box-shadow: 0 4px 16px rgba(59, 58, 54, .15); }
+.behind-card h1 { margin: 0 0 .25rem; color: var(--carrot-deep); }
+.behind-card h2 { font-size: 1.125rem; margin: 1.25rem 0 .375rem; color: var(--sage-dark); }
+.behind-card p { margin: 0 0 .625rem; }
+.behind-subtitle { font-style: italic; font-size: 1.0625rem; color: var(--sage-dark); margin-bottom: 1rem; }
+.behind-card ul { margin: 0 0 .75rem; padding-left: 1.25rem; }
+.behind-card li { margin: 0 0 .25rem; }
+
+/* Terminal styled after the drawn kiosk; the visitor's paper invoice sits beside it. */
+.terminal-screen { display: flex; justify-content: center; align-items: flex-start; gap: 1.5rem; }
+.terminal-screen.with-paper { max-width: 90rem; margin: 0 auto; }
+.terminal-screen.with-paper .kiosk { flex: 1 1 34rem; }
+.kiosk {
+  width: min(100%, 52rem);
+  background: linear-gradient(90deg, var(--bezel-shade), var(--bezel) 50%, var(--bezel-shade));
+  border: 3px solid #b3a888; border-radius: 1.25rem; padding: 0 1rem 1rem;
+  box-shadow: 0 6px 22px rgba(59, 58, 54, .22);
+}
+.kiosk-crown {
+  margin: 0 -1rem 1rem; padding: .5rem; border-radius: 1rem 1rem 0 0;
+  background: var(--carrot); color: var(--paper); text-align: center; font-weight: bold; font-size: 1.25rem;
+}
+.kiosk-face {
+  background: linear-gradient(180deg, var(--screen-top), var(--screen-bottom));
+  color: var(--screen-text); border: 6px solid #4a4a42; border-radius: .75rem;
+  padding: 1rem 1.25rem 1.5rem; font-family: var(--mono); min-height: 24rem; overflow-wrap: anywhere;
+}
+.kiosk-head {
+  display: flex; flex-wrap: wrap; align-items: flex-start; gap: .5rem 1rem;
+  border-bottom: 1px dashed var(--screen-dim); padding-bottom: .5rem; margin-bottom: .75rem;
+}
+.kiosk-title { flex: 1 1 16rem; }
+.terminal-screen button.return-hospital { flex: none; padding: .375rem .75rem; font-size: .875rem; }
+.kiosk-head h1 { margin: 0; font-size: clamp(1rem, 2.4vw, 1.25rem); letter-spacing: .04em; text-transform: uppercase; }
+.kiosk-version { margin: .125rem 0 0; color: var(--screen-dim); font-size: .8125rem; }
+.allowance { margin: 0 0 1rem; color: var(--carrot-light); font-size: .9375rem; }
+.ticker { flex: 1 1 100%; display: flex; align-items: center; gap: .75rem; padding: .25rem .5rem; border: 1px solid rgba(244, 236, 219, .35); border-radius: .25rem; }
+.ticker-text { margin: 0; flex: 1; font-size: .875rem; }
+.terminal-screen button.ticker-toggle { padding: .125rem .5rem; font-size: .75rem; border-width: 1px; }
+.kiosk-body h2 { font-size: 1.125rem; margin: 0 0 .5rem; color: var(--carrot-light); }
+.kiosk-body p { margin: 0 0 .75rem; }
+.speaker { color: var(--screen-dim); font-size: .8125rem; letter-spacing: .08em; text-transform: uppercase; margin-bottom: .125rem !important; }
+.say { border-left: 3px solid var(--carrot); padding-left: .75rem; }
+.menu { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: .625rem; }
+.terminal-screen button, .terminal-screen a.button {
+  background: transparent; color: var(--screen-text); border: 2px solid var(--screen-text);
+  border-radius: .375rem; padding: .625rem 1rem; text-align: left; font-family: var(--mono); font-size: 1rem;
+}
+.terminal-screen button:hover:not(:disabled), .terminal-screen a.button:hover { background: rgba(244, 236, 219, .12); }
+.terminal-screen button.go { background: var(--carrot-light); color: var(--screen-bottom); border-color: var(--carrot-light); font-weight: bold; }
+.terminal-screen button.go:hover:not(:disabled) { background: var(--paper); }
+.terminal-screen button:disabled { opacity: .55; cursor: not-allowed; }
+.actions { display: flex; flex-wrap: wrap; gap: .625rem; margin-top: 1rem; }
+.invoice-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .625rem; }
+.invoice-list button { width: 100%; }
+.invoice-meta { display: block; color: var(--screen-dim); font-size: .875rem; }
+.invoice-grid { list-style: none; margin: .75rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .625rem; }
+.terminal-screen button.invoice-pick { width: 100%; height: 100%; display: grid; gap: .125rem; align-content: start; }
+.pick-name { font-weight: bold; color: var(--carrot-light); }
+.pick-meta { color: var(--screen-dim); font-size: .875rem; }
+.nowrap { white-space: nowrap; }
+.pick-no { font-size: .8125rem; color: var(--screen-dim); }
+.invoice-section { margin-top: 1rem; }
+.invoice-section h3 { margin: 0; font-size: .9375rem; color: var(--screen-dim); letter-spacing: .06em; text-transform: uppercase; }
+.reviewed-section { margin-top: 1.5rem; padding-top: .75rem; border-top: 1px dashed var(--screen-dim); }
+.terminal-screen button.invoice-pick.reviewed { border-style: dashed; }
+.pick-tag.reviewed-tag { background: var(--sage); border: 1px solid var(--sage); color: var(--screen-bottom); font-weight: bold; }
+.pick-tag { justify-self: start; margin-top: .25rem; padding: 0 .375rem; border: 1px dashed var(--carrot-light); border-radius: .25rem; font-size: .75rem; color: var(--carrot-light); }
+.notice { border: 1px solid var(--carrot-light); border-radius: .375rem; padding: .625rem .75rem; color: var(--paper); }
+.outcome {
+  display: inline-block; margin: 0 0 .75rem; padding: .25rem .75rem; border-radius: .25rem;
+  font-weight: bold; letter-spacing: .04em; text-transform: uppercase; font-size: 1.0625rem;
+}
+.outcome-no_discrepancy_found { background: var(--sage); color: var(--screen-bottom); }
+.outcome-discrepancy_identified { background: var(--carrot-light); color: var(--screen-bottom); }
+.outcome-staff_review_required { background: var(--paper); color: var(--screen-bottom); }
+.findings { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: .75rem; }
+.finding { border: 1px solid rgba(244, 236, 219, .35); border-radius: .375rem; padding: .625rem .75rem; }
+.finding h3 { margin: 0 0 .375rem; font-size: .9375rem; color: var(--carrot-light); }
+.finding p { margin: 0 0 .375rem; }
+.finding .evidence { color: var(--screen-dim); }
+.fine { color: var(--screen-dim); font-size: .875rem; }
+.waiting { display: flex; align-items: baseline; gap: .5rem; }
+.cursor { display: inline-block; width: .6em; height: 1.1em; background: var(--screen-text); transform: translateY(.15em); animation: cursor-blink 1s steps(1) infinite; }
+@keyframes cursor-blink { 50% { opacity: 0; } }
+.kiosk-base { display: flex; align-items: center; gap: .5rem; padding: .75rem .25rem 0; }
+.lamp { width: .875rem; height: .875rem; border-radius: 50%; background: #d8c9a6; }
+.lamp.green { background: #7d9a52; }
+.slot { margin-left: auto; width: 6rem; height: .5rem; border-radius: .25rem; background: #a99f86; }
+
+/* Paper invoice, after the approved printed invoice: ivory sheet, carrot edge, serif type. */
+.paper {
+  flex: 1 1 26rem; max-width: 34rem; background: var(--paper); color: var(--ink);
+  border: 1px solid #d8cdb6; border-top: 6px solid var(--carrot); border-radius: .25rem .25rem .5rem .5rem;
+  padding: 1.25rem 1.25rem 1rem; box-shadow: 0 6px 18px rgba(59, 58, 54, .18); font-size: .9375rem;
+}
+.paper-brand { margin: 0; color: var(--sage-dark); font-weight: bold; letter-spacing: .02em; }
+.paper h2 { margin: .125rem 0 0; font-size: 1.25rem; }
+.paper-fiction { margin: 0 0 .75rem; font-size: .75rem; color: #6b6a63; text-transform: uppercase; letter-spacing: .06em; }
+.paper-meta { margin: 0 0 .75rem; display: grid; gap: .125rem; }
+.paper-meta div { display: flex; gap: .5rem; }
+.paper-meta dt { min-width: 6.5rem; color: #5d5b54; }
+.paper-meta dd { margin: 0; }
+.table-scroll { overflow-x: auto; margin: 0 0 .75rem; }
+.table-scroll:focus-visible { outline-offset: 1px; }
+.paper table { width: 100%; min-width: 24rem; border-collapse: collapse; font-size: .875rem; }
+.paper caption { text-align: left; font-weight: bold; padding: .25rem 0; color: var(--carrot-deep); }
+.paper th { text-align: left; font-weight: normal; color: #5d5b54; border-bottom: 1px solid #cfc4ac; padding: .25rem .375rem; }
+.paper td { border-bottom: 1px dotted #ddd3bd; padding: .3rem .375rem; vertical-align: top; }
+.paper .num { text-align: right; white-space: nowrap; }
+.paper .code { white-space: nowrap; }
+.paper tr.flagged td { background: #fbe6cf; }
+.paper-totals { margin: 0 0 .75rem auto; max-width: 16rem; }
+.paper-totals .total { display: flex; justify-content: space-between; padding: .125rem 0; }
+.paper-totals dt { color: #5d5b54; }
+.paper-totals dd { margin: 0; }
+.paper-totals .strong { border-top: 1px solid var(--ink); margin-top: .25rem; padding-top: .25rem; font-weight: bold; }
+.paper-totals .strong dt { color: var(--ink); }
+.paper h3 { font-size: 1rem; margin: .5rem 0 .25rem; color: var(--carrot-deep); }
+.paper-notes { margin: 0 0 .75rem; line-height: 1.5; }
+.paper a { color: var(--carrot-deep); }
+.summary-marks { margin: 0 0 .25rem; text-align: right; font-size: .875rem; }
+.mark {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 1.35rem; height: 1.35rem;
+  margin-right: .375rem; padding: 0 .25rem; border-radius: 999px; background: var(--carrot-deep); color: var(--paper);
+  font: bold .75rem/1 var(--mono); vertical-align: .1em;
+}
+.finding h3 .mark { background: var(--carrot-light); color: var(--screen-bottom); }
+
+@media (max-width: 64rem) {
+  .terminal-screen.with-paper { flex-direction: column; align-items: center; }
+  .terminal-screen.with-paper .kiosk { flex: none; width: min(100%, 52rem); }
+  .paper { flex: none; width: min(100%, 52rem); max-width: none; }
+}
+
+/* Closing */
+.closing-screen { display: flex; justify-content: center; padding-top: 3rem; }
+.closing-card {
+  max-width: 36rem; text-align: center; background: var(--paper); border: 2px solid var(--wood);
+  border-radius: 1rem; padding: 2rem 1.5rem; box-shadow: 0 4px 16px rgba(59, 58, 54, .15);
+}
+.closing-message { font-size: 1.375rem; margin: 0 0 1.5rem; }
+.noscript { padding: 1rem; text-align: center; }
+
+@media (max-width: 40rem) {
+  .screen { padding: .75rem; }
+  .site-bar { padding: .5rem .75rem; }
+  .site-note { font-size: .8125rem; }
+  .kiosk-head h1 { font-size: .9375rem; letter-spacing: .02em; }
+  .kiosk-crown { font-size: 1.0625rem; }
+  .kiosk-face { min-height: 0; font-size: .9375rem; }
+  .actions { flex-direction: column; }
+  .actions > button, .actions > a.button { width: 100%; text-align: center; }
+  .terminal-screen button.go { text-align: center; }
+  .invoice-grid { grid-template-columns: 1fr; }
+  .paper { padding: 1rem .875rem .75rem; }
+  .paper-meta dt { min-width: 5.5rem; }
+  .paper-totals { max-width: none; }
+  .closing-screen { padding-top: 1.5rem; }
+  .closing-message { font-size: 1.1875rem; }
+  .stage, .stage.stage-with-dialogue { width: 100%; min-width: 0; }
+  .dialogue { flex-direction: column; align-items: stretch; padding: .75rem 1rem 1rem; }
+  .dialogue-actions { flex-direction: column; }
+  .dialogue-actions > button { width: 100%; text-align: center; }
+  .kiosk { padding: 0 .5rem .5rem; }
+  .kiosk-crown { margin: 0 -.5rem .5rem; }
+  .kiosk-face { padding: .75rem; }
+}
+
+/* ---------- Animations (approved set). All motion stops under prefers-reduced-motion. ---------- */
+
+/* Scene cross-fade */
+.screen:not([hidden]) { animation: scene-in .35s ease-out; }
+@keyframes scene-in { from { opacity: 0; } to { opacity: 1; } }
+
+/* Hearthy: blink, slight head tilt, occasional ear twitch (wrappers added at build time).
+   Animations restart whenever the interior appears, so the first blink and twitch are timed early. */
+.scene-art [id$="anim-head"], .scene-art [id$="anim-eye-l"], .scene-art [id$="anim-eye-r"], .scene-art [id$="anim-ear-r"] {
+  transform-box: fill-box;
+}
+.scene-art [id$="anim-head"] { transform-origin: 50% 92%; animation: head-tilt 7s ease-in-out infinite alternate; }
+.scene-art [id$="anim-eye-l"], .scene-art [id$="anim-eye-r"] { transform-origin: 50% 55%; animation: hearthy-blink 7s infinite; }
+.scene-art [id$="anim-eye-r"] { animation-delay: .04s; }
+.scene-art [id$="anim-ear-r"] { transform-origin: 30% 100%; animation: ear-twitch 11s infinite; }
+@keyframes head-tilt { from { transform: rotate(-1.2deg); } to { transform: rotate(1deg); } }
+@keyframes hearthy-blink { 0%, 10%, 14%, 66%, 70%, 100% { transform: scaleY(1); } 12%, 68% { transform: scaleY(.08); } }
+@keyframes ear-twitch { 0%, 16%, 24%, 100% { transform: rotate(0); } 18% { transform: rotate(-7deg); } 20% { transform: rotate(2deg); } 22% { transform: rotate(0); } }
+
+/* Office ambience. Positions are in the artwork's own units (transform-box: view-box).
+   The fan swings over a 14 s cycle and faces the pinboard and the desk at 7 s; the pinboard
+   sheets flutter and the loose pages lift off on that beat. */
+.scene-art [id$="anim-fan-head"], .scene-art [id$="anim-fan-blades"], .scene-art [id$="anim-calendar"], .scene-art [id$="anim-flyer"],
+.scene-art [id$="anim-bell"], .scene-art [id*="anim-page-"], .scene-art [id*="anim-steam-"], .scene-art [id$="anim-clouds"],
+.scene-art [id$="anim-canopy"] { transform-box: view-box; }
+.scene-art [id$="anim-fan-head"] { transform-origin: 564px 168px; animation: fan-swing 14s ease-in-out infinite; }
+.scene-art [id$="anim-fan-blades"] { transform-origin: 0 0; animation: fan-spin .9s linear infinite; }
+@keyframes fan-swing { 0%, 100% { transform: rotate(8deg); } 50% { transform: rotate(-8deg); } }
+@keyframes fan-spin { to { transform: rotate(360deg); } }
+.scene-art [id$="anim-calendar"] { transform-origin: 761px 79px; animation: pin-flutter 14s ease-in-out infinite; }
+.scene-art [id$="anim-flyer"] { transform-origin: 968px 133px; animation: pin-flutter 14s ease-in-out .5s infinite; }
+@keyframes pin-flutter {
+  0%, 36%, 64%, 100% { transform: rotate(0); }
+  40% { transform: rotate(1.6deg); } 43% { transform: rotate(-.6deg); } 46% { transform: rotate(2deg); } 49% { transform: rotate(-.5deg); }
+  52% { transform: rotate(1.7deg); } 55% { transform: rotate(-.3deg); } 58% { transform: rotate(1.1deg); } 61% { transform: rotate(.2deg); }
+}
+/* Two loose pages: each rests on the desk, lifts on the fan's beat (every 56 s, 28 s apart), drifts onto the
+   pile, rests there, then quietly fades and is back on the desk, so the pile never grows without end. */
+.scene-art [id*="anim-page-"] { transform-origin: 0 0; }
+.scene-art [id$="anim-page-1"] { animation: page-blow-1 56s ease-in-out infinite; }
+.scene-art [id$="anim-page-2"] { animation: page-blow-2 56s ease-in-out 28s infinite; }
+@keyframes page-blow-1 {
+  0%, 12.5% { opacity: 1; transform: none; }
+  13.3% { transform: translate(6px, -10px) rotate(-8deg); }
+  14.6% { transform: translate(30px, -4px) rotate(10deg); }
+  16% { transform: translate(46px, 42px) rotate(-14deg); }
+  17.4% { transform: translate(34px, 108px) rotate(12deg); }
+  18.8% { transform: translate(18px, 168px) rotate(-6deg); }
+  20.2%, 86% { opacity: 1; transform: translate(0, 219px) rotate(16deg); }
+  92%, 96% { opacity: 0; transform: translate(0, 219px) rotate(16deg); }
+  96.1% { opacity: 0; transform: none; }
+  100% { opacity: 1; transform: none; }
+}
+@keyframes page-blow-2 {
+  0%, 12.5% { opacity: 1; transform: none; }
+  13.3% { transform: translate(8px, -8px) rotate(-6deg); }
+  14.6% { transform: translate(34px, -2px) rotate(8deg); }
+  16% { transform: translate(56px, 30px) rotate(-10deg); }
+  17.4% { transform: translate(40px, 90px) rotate(12deg); }
+  18.8% { transform: translate(0, 140px) rotate(-8deg); }
+  19.8% { transform: translate(-40px, 172px) rotate(6deg); }
+  21%, 86% { opacity: 1; transform: translate(-67px, 191px) rotate(-14deg); }
+  92%, 96% { opacity: 0; transform: translate(-67px, 191px) rotate(-14deg); }
+  96.1% { opacity: 0; transform: none; }
+  100% { opacity: 1; transform: none; }
+}
+/* Steam from the carrot mug. */
+.scene-art [id*="anim-steam-"] { transform-origin: 0 0; animation: steam-rise 4.8s ease-out infinite; }
+.scene-art [id$="anim-steam-2"] { animation-delay: -1.6s; }
+.scene-art [id$="anim-steam-3"] { animation-delay: -3.2s; }
+@keyframes steam-rise {
+  0% { opacity: 0; transform: translateY(6px) scaleY(.6); }
+  30% { opacity: .6; }
+  100% { opacity: 0; transform: translateY(-18px) scale(.85, 1.1); }
+}
+/* An occasional tiny spark at the power strip: one quick double pop every 11 s, hidden otherwise
+   (far below flash thresholds; hidden entirely under reduced motion). */
+.scene-art [id$="anim-spark"] { opacity: 0; transform-box: view-box; transform-origin: 0 0; animation: spark 11s linear 3s infinite; }
+@keyframes spark {
+  0%, 60%, 63.6%, 100% { opacity: 0; transform: scale(.3); }
+  60.8% { opacity: 1; transform: scale(1.1) rotate(15deg); }
+  61.8% { opacity: .2; transform: scale(.6); }
+  62.4% { opacity: .9; transform: scale(.9) rotate(-10deg); }
+}
+/* The desk bell: a short press and wiggle each time it is rung (restarted, never stacked). */
+.scene-art [id$="anim-bell"] { transform-origin: 988px 616px; }
+.scene-art.ringing [id$="anim-bell"] { animation: bell-ring .65s ease-out; }
+@keyframes bell-ring {
+  0%, 100% { transform: none; }
+  15% { transform: translateY(3px) scaleY(.9); }
+  30% { transform: rotate(-10deg); } 48% { transform: rotate(7deg); } 64% { transform: rotate(-4deg); } 80% { transform: rotate(2deg); }
+}
+.ding.ringing { animation: ding-float .9s ease-out forwards; }
+@keyframes ding-float {
+  0% { opacity: 0; transform: translate(-50%, 4px); }
+  20% { opacity: 1; }
+  100% { opacity: 0; transform: translate(-50%, -30px); }
+}
+/* Outside: clouds drift and the tree canopy sways a little. */
+.scene-art [id$="anim-clouds"] { animation: cloud-drift 40s ease-in-out infinite alternate; }
+.scene-art [id$="anim-canopy"] { transform-origin: 128px 560px; animation: canopy-sway 4s ease-in-out infinite alternate; }
+@keyframes cloud-drift { from { transform: translateX(-14px); } to { transform: translateX(18px); } }
+@keyframes canopy-sway { from { transform: rotate(-2deg); } to { transform: rotate(2deg); } }
+
+/* The drawn kiosk invites a click */
+.hotspot-kiosk { animation: kiosk-glow 3.2s ease-in-out infinite; }
+@keyframes kiosk-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(246, 196, 140, 0); }
+  50% { box-shadow: 0 0 0 3px rgba(246, 196, 140, .55), 0 0 26px 8px rgba(246, 196, 140, .32); }
+}
+
+/* Terminal power-on when the terminal opens */
+#screen-terminal:not([hidden]) .kiosk-face { animation: power-on .6s ease-out; transform-origin: 50% 50%; }
+@keyframes power-on {
+  0% { transform: scaleY(.03); filter: brightness(2.4); }
+  45% { transform: scaleY(1); filter: brightness(1.5); }
+  100% { transform: none; filter: none; }
+}
+
+/* The paper invoice is handed over; flagged lines highlight once */
+.paper:not([hidden]) { animation: paper-in .45s ease-out; }
+@keyframes paper-in { from { opacity: 0; transform: translateX(28px) rotate(1.2deg); } to { opacity: 1; transform: none; } }
+.paper tr.flagged td { animation: flag-in 1.2s ease-out; }
+@keyframes flag-in { from { background: #f6c48c; } to { background: #fbe6cf; } }
+
+/* Findings appear after the completed response */
+.findings .finding { animation: rise-in .4s ease-out both; }
+.findings .finding:nth-child(2) { animation-delay: .12s; }
+.findings .finding:nth-child(3) { animation-delay: .24s; }
+.findings .finding:nth-child(4) { animation-delay: .36s; }
+.findings .finding:nth-child(5) { animation-delay: .48s; }
+.findings .finding:nth-child(n + 6) { animation-delay: .6s; }
+@keyframes rise-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

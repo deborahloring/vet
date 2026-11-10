@@ -1,0 +1,36 @@
+// Deployment settings. No secret values belong here.
+// Secrets, uploaded with --secrets-file: GEMINI_API_KEY, ACCESS_TEAM_DOMAIN, ACCESS_AUD, ALLOWED_EMAIL
+// ALLOWED_EMAIL is a comma-separated list: the owner plus each invited reviewer (it must match the Access policy).
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "paws-and-order-vet",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-05-01",
+  "compatibility_flags": ["nodejs_compat"],
+
+  // Rebuilds dist/ (kiosk + approved art) before every deploy or dry run; fails if the bundled data is stale.
+  "build": { "command": "npm run build" },
+
+  // Only the protected address exists.
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [{ "pattern": "vet.deborahloring.com", "custom_domain": true }],
+
+  // The Worker always runs first, so no file is served without the login check.
+  "assets": { "directory": "./dist", "binding": "ASSETS", "run_worker_first": true },
+
+  // The usage counter. SQLite is the free-plan storage for Durable Objects.
+  "durable_objects": { "bindings": [{ "name": "DESK", "class_name": "DeskState" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["DeskState"] }],
+
+  "vars": {
+    // Open for individually invited reviewers (owner decision, November 2026).
+    "DESK_OPEN": "true",
+    "VISITOR_DAILY_LIMIT": "3",
+    "SHARED_DAILY_LIMIT": "50",
+    "RECORDING_URL": "",
+    // Must be an approved model identifier (src/gemini/model.ts); anything else fails closed.
+    "GEMINI_MODEL": "gemini-3.5-flash-lite"
+  },
+  "observability": { "enabled": true, "head_sampling_rate": 1 }
+}

@@ -1,0 +1,54 @@
+# Dependencies, generated output, and caches
+node_modules/
+dist/
+coverage/
+.wrangler/
+.cache/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Logs and OS/editor artifacts
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local secrets and credentials (examples may be tracked)
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+*.jks
+*.keystore
+*.credentials.json
+service-account*.json
+secrets/
+credentials/
+
+# Private work and Claude's local preferences
+local/
+local_docs/
+CLAUDE.local.md
+.claude/
+
+# Private evaluation answer keys: never commit or publish
+evaluation_private/
+**/evaluation_private/
+data/evaluation_private/
+expected_reviews*.csv
+expected_findings*.csv
+
+# Generated invoice PDFs and local exports
+invoices/
+data/invoices/**/*.pdf
+invoice_manifest.json

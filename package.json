@@ -1,0 +1,37 @@
+{
+  "name": "vet",
+  "version": "1.0.0",
+  "description": "Paws & Order Cat Hospital: a fictional cash-pay veterinary invoice review portfolio application. All data is synthetic.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deborahloring/vet.git"
+  },
+  "author": "Deborah Loring",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pool:check": "node scripts/select-visitor-pool.ts --check",
+    "pdfs": "python scripts/build_invoices.py --config config/review-invoices.json --output invoices",
+    "build:data": "npm run pdfs && node scripts/build-review-data.ts",
+    "check:data": "node scripts/build-review-data.ts --check",
+    "build": "npm run pool:check && npm run pdfs && npm run check:data && node scripts/build-kiosk.ts",
+    "preview:local": "node scripts/preview-local.ts",
+    "test": "node --test \"tests/**/*.test.ts\" && python -m unittest discover -s tests/eval -p \"test_*.py\"",
+    "typecheck": "tsc -p .",
+    "eval:run": "node scripts/eval/run-eval.ts",
+    "eval:allocate": "python scripts/eval/allocate.py",
+    "eval:score": "python scripts/eval/score.py"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.158.0"
+  },
+  "dependencies": {
+    "jose": "6.2.15"
+  }
+}

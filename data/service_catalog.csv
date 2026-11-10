@@ -1,0 +1,34 @@
+code,section,description,standard_unit_price,taxable,unit
+EX-101,service,Annual Wellness Examination,65.00,no,each
+EX-102,service,New Patient Examination,75.00,no,each
+EX-103,service,Sick Patient Examination,85.00,no,each
+EX-104,service,Follow-Up Examination,45.00,no,each
+EX-105,service,Senior Cat Wellness Examination,90.00,no,each
+EX-106,service,Behavioral Consultation,95.00,no,each
+EX-107,service,Nutritional Consultation,55.00,no,each
+EX-108,service,Skin and Coat Examination,70.00,no,each
+EX-109,service,Ear Examination,60.00,no,each
+EX-110,service,Mobility Assessment,80.00,no,each
+LAB-201,service,Complete Blood Count,75.00,no,each
+LAB-202,service,Blood Chemistry Panel,110.00,no,each
+LAB-203,service,Urinalysis,55.00,no,each
+LAB-204,service,Fecal Examination,45.00,no,each
+LAB-205,service,Thyroid Screening,85.00,no,each
+VAC-301,service,Rabies Vaccination,35.00,no,each
+VAC-302,service,FVRCP Vaccination,40.00,no,each
+VAC-303,service,Feline Leukemia Vaccination,45.00,no,each
+DEN-401,service,Dental Examination,55.00,no,each
+DEN-402,service,Dental Cleaning,250.00,no,each
+PR-501,service,Nail Trim,22.00,no,each
+PR-502,service,Ear Cleaning,30.00,no,each
+PR-503,service,Anal Gland Expression,35.00,no,each
+PR-504,service,Subcutaneous Fluid Administration,45.00,no,each
+PR-505,service,Microchip Placement,50.00,no,each
+MED-601,product,Prescription Antibiotic Tablets,28.00,yes,each
+MED-602,product,Prescription Anti-Inflammatory Medication,32.00,yes,each
+MED-603,product,Ear Treatment Solution,24.00,yes,each
+MED-604,product,Prescription Skin Treatment,38.00,yes,each
+MED-605,product,Flea Prevention Treatment,25.00,yes,each
+MED-606,product,Deworming Medication,22.00,yes,each
+SUP-701,product,Veterinary Dental Care Kit,30.00,yes,each
+SUP-702,product,Recovery Collar,18.00,yes,each

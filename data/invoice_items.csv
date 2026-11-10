@@ -1,0 +1,1082 @@
+invoice_no,section,line_number,code,description,quantity,unit_price,amount
+PO-2024-0001,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2024-0001,service,2,PR-501,Nail Trim,2,22.00,44.00
+PO-2024-0001,service,3,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2024-0001,service,4,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2023-0002,service,1,EX-109,Ear Examination,1,60.00,60.00
+PO-2023-0002,service,2,PR-502,Microchip Placement,1,30.00,30.00
+PO-2023-0002,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0003,service,1,LAB-201,Complete Blood Count,1,75.00,70.00
+PO-2024-0003,service,2,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2024-0003,service,3,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2024-0003,service,4,VAC-301,Rabies Vaccination,2,35.00,70.00
+PO-2025-0004,service,1,DEN-402,Dental Cleaning,1,265.00,265.00
+PO-2025-0004,service,2,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2025-0004,service,3,DEN-401,Dental Examination,1,55.00,55.00
+PO-2023-0005,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0005,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2023-0005,service,3,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2023-0005,service,4,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0005,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0006,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0006,service,2,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0006,service,3,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2022-0007,service,1,PR-501,Nail Trim,2,22.00,44.00
+PO-2022-0007,service,2,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2022-0007,service,3,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2024-0008,service,1,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2024-0008,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0008,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2025-0009,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0009,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0009,service,3,EX-110,Mobility Assessment,1,95.00,95.00
+PO-2025-0009,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2024-0010,service,1,PR-501,Nail Trim,1,17.00,17.00
+PO-2024-0010,service,2,EX-102,Blood Chemistry Panel,1,75.00,75.00
+PO-2024-0010,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2024-0010,service,4,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0011,service,1,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2022-0011,service,2,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2022-0011,service,3,DEN-401,Dental Examination,1,55.00,55.00
+PO-2022-0011,service,4,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2022-0011,product,1,SUP-701,Veterinary Dental Care Kit,1,30.00,30.00
+PO-2022-0012,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0012,service,2,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2022-0012,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0012,service,4,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0012,service,5,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0013,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0013,service,2,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0014,service,1,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2025-0014,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0014,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0014,service,4,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0014,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2023-0015,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0015,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0015,service,3,EX-109,Ear Examination,1,60.00,60.00
+PO-2024-0016,service,1,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2024-0016,service,2,LAB-204,Fecal Examination,1,45.00,47.00
+PO-2024-0016,service,3,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0016,service,4,EX-103,Sick Patient Examination,1,88.00,88.00
+PO-2024-0016,service,5,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0016,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2023-0017,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0017,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2023-0017,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0017,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2022-0018,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2022-0018,service,2,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2022-0018,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0018,service,4,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2022-0018,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0019,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0019,service,2,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2025-0019,service,3,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0020,service,1,EX-102,New Patient Examination,1,75.00,75.00
+PO-2025-0020,service,2,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2025-0020,service,3,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2025-0020,service,4,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2025-0020,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2022-0021,service,1,PR-504,Subcutaneous Fluid Administration,2,45.00,90.00
+PO-2022-0021,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0021,service,3,VAC-995,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0021,service,4,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2022-0021,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2025-0022,service,1,EX-107,Nutritional Consultation,1,55.00,55.00
+PO-2025-0022,service,2,EX-106,Behavioral Consultation,1,90.00,90.00
+PO-2025-0022,service,3,PR-504,Subcutaneous Fluid Administration,2,45.00,90.00
+PO-2024-0023,service,1,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2024-0023,service,2,EX-101,Annual Wellness Examination,1,65.00,80.00
+PO-2024-0023,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2022-0024,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0024,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2022-0024,product,1,SUP-701,Veterinary Dental Care Kit,1,30.00,30.00
+PO-2024-0025,service,1,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2024-0025,service,2,EX-109,Ear Examination,1,60.00,60.00
+PO-2024-0025,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0026,service,1,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2025-0026,service,2,EX-109,Ear Examination,1,60.00,60.00
+PO-2025-0026,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0026,service,4,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0026,service,5,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2024-0027,service,1,PR-998,Complete Blood Count,1,75.00,75.00
+PO-2024-0027,service,2,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2024-0027,service,3,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0028,service,1,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2022-0028,service,2,EX-101,Nail Trim,1,65.00,65.00
+PO-2022-0028,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2024-0029,service,1,PR-505,Microchip Placement,1,50.00,50.00
+PO-2024-0029,service,2,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2024-0029,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2023-0030,service,1,DEN-401,Blood Chemistry Panel,1,55.00,55.00
+PO-2023-0030,service,2,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2023-0030,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0030,service,4,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2023-0030,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2024-0031,service,1,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2024-0031,service,2,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2024-0031,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0032,service,1,DEN-401,Dental Examination,1,55.00,55.00
+PO-2025-0032,service,2,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2025-0032,service,3,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2025-0032,service,4,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0033,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0033,service,2,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2025-0033,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0033,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2025-0034,service,1,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2025-0034,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0034,service,3,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2025-0034,service,4,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0035,service,1,EX-107,Nutritional Consultation,1,67.00,67.00
+PO-2023-0035,service,2,EX-106,Behavioral Consultation,1,95.00,90.00
+PO-2022-0036,service,1,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2022-0036,service,2,LAB-201,Complete Blood Count,3,75.00,225.00
+PO-2022-0036,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0036,service,4,EX-102,New Patient Examination,1,75.00,75.00
+PO-2022-0036,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2024-0037,service,1,PR-505,Microchip Placement,1,50.00,50.00
+PO-2024-0037,service,2,EX-102,New Patient Examination,1,75.00,75.00
+PO-2024-0037,service,3,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2025-0038,service,1,DEN-401,Dental Examination,1,70.00,70.00
+PO-2025-0038,service,2,DEN-402,FVRCP Vaccination,1,250.00,250.00
+PO-2025-0038,service,3,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2025-0038,product,1,SUP-701,Veterinary Dental Care Kit,1,30.00,30.00
+PO-2022-0039,service,1,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2022-0039,service,2,EX-102,Microchip Placement,1,75.00,75.00
+PO-2022-0039,service,3,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2022-0039,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2022-0040,service,1,LAB-204,Fecal Examination,2,45.00,90.00
+PO-2022-0040,service,2,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0040,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0040,service,4,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0040,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2022-0041,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0041,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2022-0041,service,3,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0042,service,1,PR-501,Nail Trim,2,22.00,44.00
+PO-2025-0042,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0042,service,3,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2025-0043,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0043,service,2,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2025-0043,service,3,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2025-0043,service,4,EX-102,New Patient Examination,1,75.00,75.00
+PO-2025-0043,service,5,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0044,service,1,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0044,service,2,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2025-0044,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0045,service,1,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2025-0045,service,2,EX-101,Blood Chemistry Panel,1,65.00,65.00
+PO-2025-0045,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0045,service,4,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0046,service,1,EX-107,Nutritional Consultation,1,55.00,55.00
+PO-2024-0046,service,2,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2024-0046,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2024-0046,service,4,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2024-0046,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2024-0047,service,1,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2024-0047,service,2,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2024-0047,service,3,EX-105,Microchip Placement,1,90.00,90.00
+PO-2024-0047,service,4,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2022-0048,service,1,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0048,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0049,service,1,PR-505,Microchip Placement,1,50.00,50.00
+PO-2024-0049,service,2,EX-102,New Patient Examination,1,75.00,75.00
+PO-2024-0049,service,3,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2024-0049,service,4,PR-505,Microchip Placement,1,50.00,50.00
+PO-2024-0049,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2024-0050,service,1,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2024-0050,service,2,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2024-0050,service,3,DEN-401,Dental Examination,1,55.00,55.00
+PO-2024-0050,service,4,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0051,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0051,service,2,EX-109,Ear Examination,1,60.00,60.00
+PO-2024-0051,product,1,MED-603,Ear Treatment Solution,2,24.00,48.00
+PO-2022-0052,service,1,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2022-0052,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0053,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2023-0053,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0053,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2022-0054,service,1,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2022-0054,service,2,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2022-0055,service,1,EX-109,Ear Examination,1,60.00,60.00
+PO-2022-0055,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0055,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0055,product,1,MED-603,Ear Treatment Solution,1,24.00,24.00
+PO-2022-0056,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2022-0056,service,2,PR-504,Mobility Assessment,1,45.00,45.00
+PO-2022-0056,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2024-0057,service,1,LAB-203,Urinalysis,2,55.00,110.00
+PO-2024-0057,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0057,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0057,service,4,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2024-0057,product,1,MED-603,Ear Treatment Solution,2,24.00,48.00
+PO-2025-0058,service,1,EX-107,Nutritional Consultation,1,55.00,55.00
+PO-2025-0058,service,2,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2025-0058,service,3,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2025-0058,service,4,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2023-0059,service,1,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2023-0059,service,2,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2023-0059,service,3,EX-102,New Patient Examination,1,75.00,75.00
+PO-2023-0059,product,1,MED-605,Flea Prevention Treatment,1,28.00,28.00
+PO-2025-0060,service,1,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2025-0060,service,2,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0060,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0060,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2024-0061,service,1,EX-103,Sick Patient Examination,1,94.00,94.00
+PO-2024-0061,service,2,LAB-203,Urinalysis,2,55.00,110.00
+PO-2024-0061,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0061,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2023-0062,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2023-0062,service,2,LAB-203,Urinalysis,1,55.00,55.00
+PO-2023-0062,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0063,service,1,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2023-0063,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0063,service,3,EX-106,New Patient Examination,1,95.00,95.00
+PO-2023-0063,service,4,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2023-0063,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2024-0064,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0064,service,2,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2023-0065,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0065,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0065,service,3,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2023-0065,service,4,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2023-0065,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0066,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0066,service,2,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0066,service,3,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2025-0066,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2024-0067,service,1,EX-101,Annual Wellness Examination,1,65.00,55.00
+PO-2024-0067,service,2,VAC-303,Feline Leukemia Vaccination,3,45.00,135.00
+PO-2023-0068,service,1,EX-107,Nutritional Consultation,1,55.00,55.00
+PO-2023-0068,service,2,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2023-0068,service,3,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2023-0068,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2022-0069,service,1,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2022-0069,service,2,VAC-302,Nutritional Consultation,1,40.00,40.00
+PO-2022-0069,service,3,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2022-0069,product,1,MED-606,Deworming Medication,2,22.00,44.00
+PO-2024-0070,service,1,LAB-203,Urinalysis,1,55.00,55.00
+PO-2024-0070,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2024-0070,service,3,LAB-205,Thyroid Screening,1,85.00,100.00
+PO-2024-0070,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2022-0071,service,1,PR-501,Nail Trim,1,27.00,27.00
+PO-2022-0071,service,2,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2023-0072,service,1,LAB-201,Complete Blood Count,1,75.00,77.00
+PO-2023-0072,service,2,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2023-0072,service,3,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2023-0072,service,4,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2023-0072,service,5,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2023-0072,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2024-0073,service,1,PR-505,Microchip Placement,1,50.00,50.00
+PO-2024-0073,service,2,EX-102,New Patient Examination,1,70.00,70.00
+PO-2024-0073,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2025-0074,service,1,PR-501,Subcutaneous Fluid Administration,1,22.00,22.00
+PO-2025-0074,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2025-0074,product,1,SUP-701,Veterinary Dental Care Kit,1,30.00,30.00
+PO-2023-0075,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2023-0075,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2023-0075,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2023-0076,service,1,LAB-203,Urinalysis,1,55.00,55.00
+PO-2023-0076,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0076,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0076,service,4,EX-103,Sick Patient Examination,1,97.00,97.00
+PO-2023-0076,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2023-0077,service,1,PR-505,Microchip Placement,1,50.00,50.00
+PO-2023-0077,service,2,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2023-0077,service,3,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2022-0078,service,1,EX-107,Nutritional Consultation,1,55.00,55.00
+PO-2022-0078,service,2,LAB-205,Thyroid Screening,2,85.00,170.00
+PO-2022-0078,service,3,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2022-0078,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2025-0079,service,1,EX-102,New Patient Examination,1,75.00,75.00
+PO-2025-0079,service,2,PR-503,Anal Gland Expression,2,35.00,70.00
+PO-2025-0079,service,3,VAC-302,Nail Trim,1,40.00,40.00
+PO-2025-0079,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2022-0080,service,1,EX-109,Ear Examination,1,60.00,67.00
+PO-2022-0080,service,2,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2022-0081,service,1,EX-109,Ear Examination,1,60.00,60.00
+PO-2022-0081,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0081,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0081,service,4,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0081,product,1,MED-603,Ear Treatment Solution,2,24.00,48.00
+PO-2023-0082,service,1,LAB-201,FVRCP Vaccination,1,75.00,75.00
+PO-2023-0082,service,2,EX-103,Sick Patient Examination,1,77.00,77.00
+PO-2023-0082,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2025-0083,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0083,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2025-0083,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2022-0084,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0084,service,2,EX-109,Ear Examination,1,60.00,60.00
+PO-2023-0085,service,1,EX-109,Senior Cat Wellness Examination,1,60.00,60.00
+PO-2023-0085,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0085,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0085,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0086,service,1,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2025-0086,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0086,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0086,service,4,PR-501,Nail Trim,1,22.00,24.00
+PO-2025-0086,service,5,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0086,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2023-0087,service,1,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2023-0087,service,2,EX-108,Skin and Coat Examination,1,70.00,65.00
+PO-2023-0088,service,1,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2023-0088,service,2,PR-503,Anal Gland Expression,2,35.00,70.00
+PO-2022-0089,service,1,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2022-0089,service,2,EX-107,Nutritional Consultation,1,55.00,62.00
+PO-2022-0089,service,3,VAC-301,Rabies Vaccination,2,35.00,70.00
+PO-2022-0089,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2025-0090,service,1,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2025-0090,service,2,LAB-203,Urinalysis,2,55.00,110.00
+PO-2025-0090,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0090,service,4,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0090,service,5,DEN-401,Dental Examination,1,55.00,55.00
+PO-2025-0090,service,6,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2024-0091,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2024-0091,service,2,LAB-201,Blood Chemistry Panel,1,75.00,75.00
+PO-2024-0091,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2024-0091,service,4,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2024-0091,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,44.00,44.00
+PO-2024-0092,service,1,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2024-0092,service,2,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2024-0092,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2022-0093,service,1,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2022-0093,service,2,VAC-303,Feline Leukemia Vaccination,1,45.00,35.00
+PO-2022-0093,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0093,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2025-0094,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0094,service,2,LAB-204,Fecal Examination,2,45.00,90.00
+PO-2025-0094,service,3,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2025-0094,product,1,MED-603,Ear Treatment Solution,1,24.00,24.00
+PO-2023-0095,service,1,LAB-203,Urinalysis,3,55.00,165.00
+PO-2023-0095,service,2,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2025-0096,service,1,LAB-204,Fecal Examination,3,45.00,135.00
+PO-2025-0096,service,2,EX-102,New Patient Examination,1,75.00,77.00
+PO-2025-0096,service,3,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2025-0096,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2024-0097,service,1,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2024-0097,service,2,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2022-0098,service,1,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0098,service,2,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2022-0098,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0099,service,1,PR-501,Feline Leukemia Vaccination,1,22.00,22.00
+PO-2025-0099,service,2,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2025-0099,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0099,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2023-0100,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0100,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0100,service,3,PR-502,Blood Chemistry Panel,1,30.00,30.00
+PO-2023-0100,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0101,service,1,EX-102,FVRCP Vaccination,1,75.00,75.00
+PO-2025-0101,service,2,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0102,service,1,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2024-0102,service,2,VAC-995,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2024-0102,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2024-0103,service,1,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0103,service,2,EX-102,New Patient Examination,1,75.00,75.00
+PO-2024-0103,service,3,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2024-0103,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2024-0104,service,1,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2024-0104,service,2,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2024-0104,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0105,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0105,service,2,EX-108,Skin and Coat Examination,1,73.00,73.00
+PO-2025-0105,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0105,service,4,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0105,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2023-0106,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0106,service,2,PR-504,Anal Gland Expression,1,45.00,45.00
+PO-2023-0106,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2023-0107,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2023-0107,service,2,LAB-201,Senior Cat Wellness Examination,1,75.00,75.00
+PO-2023-0107,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2023-0107,service,4,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2023-0107,service,5,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2023-0107,service,6,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2023-0107,product,1,MED-604,Prescription Skin Treatment,1,38.00,38.00
+PO-2025-0108,service,1,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0108,service,2,PR-501,Nail Trim,2,22.00,44.00
+PO-2025-0108,service,3,EX-102,New Patient Examination,1,75.00,75.00
+PO-2025-0108,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2023-0109,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0109,service,2,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2023-0109,service,3,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2024-0110,service,1,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2024-0110,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2024-0110,service,3,LAB-202,Mobility Assessment,1,110.00,110.00
+PO-2024-0110,service,4,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2024-0110,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0111,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0111,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0111,service,3,PR-501,Nail Trim,1,25.00,25.00
+PO-2025-0111,service,4,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0111,service,5,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2024-0112,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2024-0112,service,2,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2024-0112,service,3,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2024-0112,product,1,MED-601,Prescription Antibiotic Tablets,1,23.00,23.00
+PO-2024-0113,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2024-0113,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2024-0113,product,1,SUP-701,Veterinary Dental Care Kit,1,30.00,30.00
+PO-2023-0114,service,1,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2023-0114,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0114,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2025-0115,service,1,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0115,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0115,service,3,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2023-0116,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2023-0116,service,2,EX-110,Mobility Assessment,1,80.00,90.00
+PO-2023-0116,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0116,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2024-0117,service,1,LAB-203,Urinalysis,1,55.00,55.00
+PO-2024-0117,service,2,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2025-0118,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0118,service,2,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0118,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2023-0119,service,1,EX-102,New Patient Examination,1,75.00,75.00
+PO-2023-0119,service,2,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2025-0120,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0120,service,2,EX-104,Follow-Up Examination,1,45.00,35.00
+PO-2023-0121,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2023-0121,service,2,PR-502,Ear Examination,1,30.00,30.00
+PO-2023-0121,service,3,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2025-0122,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0122,service,2,EX-104,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2025-0122,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2024-0123,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0123,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2024-0123,service,3,LAB-202,Anal Gland Expression,1,110.00,110.00
+PO-2024-0123,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2022-0124,service,1,PR-505,Microchip Placement,1,65.00,65.00
+PO-2022-0124,service,2,EX-102,New Patient Examination,1,75.00,75.00
+PO-2022-0124,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2022-0124,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2022-0125,service,1,PR-501,Nail Trim,2,22.00,44.00
+PO-2022-0125,service,2,EX-109,Thyroid Screening,1,60.00,60.00
+PO-2022-0125,service,3,PR-502,Ear Cleaning,1,45.00,45.00
+PO-2022-0125,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2024-0126,service,1,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2024-0126,service,2,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2024-0126,service,3,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0126,service,4,LAB-204,Fecal Examination,1,54.00,54.00
+PO-2024-0126,service,5,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0126,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2024-0127,service,1,EX-106,FVRCP Vaccination,1,95.00,95.00
+PO-2024-0127,service,2,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2024-0127,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2023-0128,service,1,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2023-0128,service,2,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2023-0128,service,3,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2023-0128,service,4,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2023-0128,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0129,service,1,LAB-201,Complete Blood Count,1,84.00,84.00
+PO-2025-0129,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0129,service,3,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2023-0130,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2023-0130,service,2,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2022-0131,service,1,EX-106,Behavioral Consultation,1,95.00,90.00
+PO-2022-0131,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0132,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0132,service,2,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2023-0132,service,3,EX-106,Behavioral Consultation,1,98.00,98.00
+PO-2023-0132,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2025-0133,service,1,PR-590,Annual Wellness Examination,1,65.00,65.00
+PO-2025-0133,service,2,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0133,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2024-0134,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2024-0134,service,2,LAB-201,Complete Blood Count,1,67.00,67.00
+PO-2024-0134,service,3,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2024-0134,service,4,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2024-0134,service,5,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0134,service,6,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2024-0134,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2022-0135,service,1,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0135,service,2,PR-501,Nail Trim,1,22.00,32.00
+PO-2022-0135,service,3,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2022-0135,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2022-0136,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0136,service,2,EX-103,Sick Patient Examination,1,85.00,92.00
+PO-2022-0136,service,3,LAB-201,Feline Leukemia Vaccination,1,75.00,75.00
+PO-2022-0136,service,4,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0136,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0137,service,1,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2025-0137,service,2,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2025-0137,service,3,LAB-201,Subcutaneous Fluid Administration,1,75.00,75.00
+PO-2023-0138,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0138,service,2,LAB-203,Urinalysis,1,55.00,55.00
+PO-2023-0138,service,3,LAB-203,Urinalysis,1,55.00,55.00
+PO-2023-0138,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2024-0139,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,105.00
+PO-2024-0139,service,2,LAB-203,Urinalysis,1,55.00,55.00
+PO-2024-0139,service,3,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2024-0139,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2022-0140,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2022-0140,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2022-0141,service,1,EX-101,Skin and Coat Examination,1,65.00,65.00
+PO-2022-0141,service,2,VAC-301,Rabies Vaccination,1,35.00,45.00
+PO-2022-0141,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2022-0141,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2025-0142,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0142,service,2,PR-502,Ear Cleaning,1,30.00,20.00
+PO-2025-0142,service,3,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0142,service,4,LAB-205,Thyroid Screening,1,80.00,80.00
+PO-2025-0142,service,5,LAB-202,Blood Chemistry Panel,2,110.00,220.00
+PO-2025-0142,service,6,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0143,service,1,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2025-0143,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0143,service,3,DEN-401,Dental Examination,1,55.00,55.00
+PO-2023-0144,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0144,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0144,service,3,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2023-0144,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2024-0145,service,1,LAB-202,Blood Chemistry Panel,1,110.00,120.00
+PO-2024-0145,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0146,service,1,PR-501,Nail Trim,3,22.00,66.00
+PO-2025-0146,service,2,PR-502,Ear Cleaning,1,33.00,33.00
+PO-2025-0146,service,3,EX-109,Ear Examination,1,60.00,60.00
+PO-2023-0147,service,1,EX-101,Annual Wellness Examination,1,65.00,80.00
+PO-2023-0147,service,2,PR-501,Sick Patient Examination,1,22.00,22.00
+PO-2023-0147,service,3,PR-505,Microchip Placement,1,50.00,50.00
+PO-2023-0147,product,1,MED-605,Flea Prevention Treatment,1,30.00,30.00
+PO-2022-0148,service,1,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2022-0148,service,2,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2022-0148,service,3,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2022-0148,service,4,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0148,service,5,EX-107,Nutritional Consultation,2,55.00,110.00
+PO-2024-0149,service,1,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2024-0149,service,2,DEN-996,Nail Trim,1,22.00,22.00
+PO-2024-0149,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2025-0150,service,1,PR-502,Complete Blood Count,1,30.00,30.00
+PO-2025-0150,service,2,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2025-0150,service,3,EX-109,Ear Examination,1,60.00,60.00
+PO-2025-0150,service,4,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2025-0150,product,1,MED-603,Ear Treatment Solution,1,24.00,24.00
+PO-2024-0151,service,1,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0151,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0151,service,3,EX-106,Fecal Examination,1,95.00,95.00
+PO-2024-0151,service,4,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0151,service,5,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0151,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2025-0152,service,1,LAB-204,Fecal Examination,2,45.00,90.00
+PO-2025-0152,service,2,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2025-0152,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2024-0153,service,1,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2024-0153,service,2,LAB-201,Nail Trim,1,75.00,75.00
+PO-2024-0153,service,3,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2024-0153,service,4,EX-107,Nutritional Consultation,1,55.00,55.00
+PO-2025-0154,service,1,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2025-0154,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0154,service,3,VAC-301,Rabies Vaccination,1,35.00,37.00
+PO-2023-0155,service,1,VAC-303,Feline Leukemia Vaccination,1,45.00,47.00
+PO-2023-0155,service,2,VAC-301,Rabies Vaccination,1,27.00,27.00
+PO-2023-0155,service,3,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2023-0156,service,1,DEN-401,Dental Examination,1,55.00,55.00
+PO-2023-0156,service,2,DEN-996,Complete Blood Count,1,75.00,75.00
+PO-2023-0157,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0157,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0157,service,3,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2023-0157,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2022-0158,service,1,EX-110,Mobility Assessment,1,80.00,75.00
+PO-2022-0158,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0158,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0158,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2024-0159,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2024-0159,service,2,PR-501,Nail Trim,3,22.00,66.00
+PO-2024-0159,service,3,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2024-0159,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2023-0160,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0160,service,2,LAB-201,Complete Blood Count,1,75.00,65.00
+PO-2023-0160,service,3,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2023-0160,service,4,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0160,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2022-0161,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0161,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2022-0161,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0161,service,4,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2022-0161,product,1,SUP-701,Veterinary Dental Care Kit,1,30.00,30.00
+PO-2024-0162,service,1,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2024-0162,service,2,LAB-203,Urinalysis,1,55.00,55.00
+PO-2024-0162,service,3,LAB-203,Urinalysis,1,55.00,55.00
+PO-2024-0162,service,4,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2024-0162,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2022-0163,service,1,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0163,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0163,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0164,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2024-0164,service,2,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2024-0164,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0164,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2023-0165,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2023-0165,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2023-0165,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2024-0166,service,1,PR-505,Microchip Placement,1,50.00,50.00
+PO-2024-0166,service,2,EX-101,Ear Cleaning,1,65.00,65.00
+PO-2024-0166,service,3,PR-505,Microchip Placement,1,50.00,50.00
+PO-2023-0167,service,1,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2023-0167,service,2,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2022-0168,service,1,EX-102,New Patient Examination,1,75.00,75.00
+PO-2022-0168,service,2,VAC-303,Anal Gland Expression,1,45.00,45.00
+PO-2022-0168,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2022-0169,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0169,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0169,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0169,service,4,EX-109,Mobility Assessment,1,60.00,60.00
+PO-2022-0170,service,1,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2022-0170,service,2,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2022-0170,service,3,EX-109,Ear Examination,1,60.00,60.00
+PO-2025-0171,service,1,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2025-0171,service,2,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2025-0171,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2023-0172,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0172,service,2,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0172,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0172,service,4,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2023-0172,service,5,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2023-0172,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2024-0173,service,1,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2024-0173,service,2,EX-106,Behavioral Consultation,1,95.00,85.00
+PO-2023-0174,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2023-0174,service,2,LAB-997,Urinalysis,1,55.00,55.00
+PO-2023-0174,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2022-0175,service,1,LAB-204,Fecal Examination,3,45.00,135.00
+PO-2022-0175,service,2,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2022-0175,service,3,EX-101,Annual Wellness Examination,1,70.00,70.00
+PO-2022-0176,service,1,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2022-0176,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0176,service,3,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0177,service,1,LAB-205,Thyroid Screening,2,85.00,170.00
+PO-2025-0177,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2024-0178,service,1,DEN-401,Dental Examination,1,55.00,55.00
+PO-2024-0178,service,2,LAB-201,Complete Blood Count,3,75.00,225.00
+PO-2024-0178,service,3,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2024-0178,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2023-0179,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0179,service,2,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2023-0179,service,3,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2023-0179,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2022-0180,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2022-0180,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0180,service,3,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2022-0180,service,4,DEN-401,Dental Examination,1,55.00,55.00
+PO-2022-0180,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2023-0181,service,1,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2023-0181,service,2,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2023-0181,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2025-0182,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,52.00
+PO-2025-0182,service,2,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2025-0182,service,3,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0183,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2025-0183,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0183,service,3,PR-504,Subcutaneous Fluid Administration,2,45.00,90.00
+PO-2025-0183,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0184,service,1,EX-101,Annual Wellness Examination,1,77.00,77.00
+PO-2025-0184,service,2,PR-501,Nail Trim,3,22.00,66.00
+PO-2025-0184,service,3,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2025-0184,service,4,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2025-0184,service,5,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2022-0185,service,1,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2022-0185,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2024-0186,service,1,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2024-0186,service,2,LAB-201,Fecal Examination,1,75.00,75.00
+PO-2024-0186,service,3,EX-106,Behavioral Consultation,1,95.00,105.00
+PO-2024-0186,service,4,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2024-0186,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2022-0187,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0187,service,2,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2022-0187,service,3,DEN-401,Dental Examination,1,55.00,55.00
+PO-2022-0187,product,1,MED-601,Prescription Antibiotic Tablets,2,28.00,56.00
+PO-2024-0188,service,1,EX-102,New Patient Examination,1,75.00,75.00
+PO-2024-0188,service,2,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2024-0188,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2023-0189,service,1,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2023-0189,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0189,service,3,EX-105,Sick Patient Examination,1,90.00,90.00
+PO-2023-0190,service,1,EX-109,Ear Examination,1,60.00,60.00
+PO-2023-0190,service,2,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2023-0190,service,3,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2023-0190,service,4,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0190,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0191,service,1,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2025-0191,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0192,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0192,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0192,service,3,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2022-0192,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2023-0193,service,1,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2023-0193,service,2,EX-107,Nutritional Consultation,1,55.00,55.00
+PO-2022-0194,service,1,LAB-201,Senior Cat Wellness Examination,1,75.00,75.00
+PO-2022-0194,service,2,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2022-0194,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0194,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2025-0195,service,1,DEN-401,Dental Examination,1,55.00,55.00
+PO-2025-0195,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0195,product,1,SUP-701,Veterinary Dental Care Kit,1,30.00,30.00
+PO-2022-0196,service,1,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2022-0196,service,2,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2022-0196,service,3,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0197,service,1,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2025-0197,service,2,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2025-0197,service,3,LAB-203,Urinalysis,2,55.00,110.00
+PO-2025-0197,service,4,EX-102,New Patient Examination,1,75.00,75.00
+PO-2025-0197,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2022-0198,service,1,PR-504,Subcutaneous Fluid Administration,2,45.00,90.00
+PO-2022-0198,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0198,service,3,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0198,product,1,MED-604,Prescription Skin Treatment,1,38.00,38.00
+PO-2022-0199,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0199,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2022-0199,service,3,DEN-996,Blood Chemistry Panel,1,110.00,110.00
+PO-2022-0199,product,1,MED-601,Prescription Antibiotic Tablets,2,28.00,56.00
+PO-2024-0200,service,1,DEN-996,FVRCP Vaccination,1,40.00,40.00
+PO-2024-0200,service,2,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2023-0201,service,1,DEN-402,Senior Cat Wellness Examination,1,250.00,250.00
+PO-2023-0201,service,2,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2023-0201,service,3,DEN-401,Dental Examination,1,55.00,55.00
+PO-2023-0201,service,4,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2023-0201,product,1,MED-601,Prescription Antibiotic Tablets,1,40.00,40.00
+PO-2024-0202,service,1,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2024-0202,service,2,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2024-0202,product,1,SUP-702,Recovery Collar,1,18.00,18.00
+PO-2025-0203,service,1,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0203,service,2,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0204,service,1,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2023-0204,service,2,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2023-0204,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0205,service,1,LAB-203,Urinalysis,1,55.00,55.00
+PO-2024-0205,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0205,service,3,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2024-0205,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2022-0206,service,1,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2022-0206,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2022-0206,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2022-0207,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0207,service,2,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2022-0207,service,3,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2025-0208,service,1,EX-109,Fecal Examination,1,60.00,60.00
+PO-2025-0208,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0208,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0209,service,1,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2025-0209,service,2,EX-109,Ear Examination,1,60.00,60.00
+PO-2025-0209,service,3,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2025-0209,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2022-0210,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0210,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2022-0210,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2024-0211,service,1,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2024-0211,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0211,service,3,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0212,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2023-0212,service,2,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2023-0213,service,1,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2023-0213,service,2,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2023-0213,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0213,product,1,SUP-702,Recovery Collar,1,33.00,33.00
+PO-2023-0214,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0214,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0215,service,1,LAB-203,Urinalysis,1,55.00,55.00
+PO-2022-0215,service,2,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2022-0215,service,3,PR-504,Subcutaneous Fluid Administration,2,45.00,90.00
+PO-2022-0215,service,4,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0216,service,1,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0216,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0216,service,3,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0217,service,1,EX-106,Behavioral Consultation,1,87.00,87.00
+PO-2024-0217,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0217,service,3,PR-504,Subcutaneous Fluid Administration,2,45.00,90.00
+PO-2024-0217,service,4,LAB-205,Senior Cat Wellness Examination,1,85.00,85.00
+PO-2024-0218,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0218,service,2,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2023-0219,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0219,service,2,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2023-0219,service,3,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2023-0220,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2023-0220,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0220,service,3,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0220,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2022-0221,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0221,service,2,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0221,service,3,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2024-0222,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0222,service,2,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2024-0222,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2025-0223,service,1,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2025-0223,service,2,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2025-0223,service,3,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2025-0223,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2022-0224,service,1,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2022-0224,service,2,LAB-204,Fecal Examination,2,45.00,90.00
+PO-2022-0224,service,3,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0224,product,1,MED-604,Prescription Skin Treatment,1,30.00,30.00
+PO-2025-0225,service,1,LAB-204,Fecal Examination,1,50.00,50.00
+PO-2025-0225,service,2,EX-105,Dental Examination,1,90.00,90.00
+PO-2025-0225,service,3,LAB-202,Blood Chemistry Panel,3,110.00,330.00
+PO-2025-0225,service,4,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2023-0226,service,1,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2023-0226,service,2,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2023-0226,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2023-0227,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0227,service,2,PR-502,Ear Cleaning,1,30.00,25.00
+PO-2023-0227,product,1,MED-603,Ear Treatment Solution,1,24.00,24.00
+PO-2024-0228,service,1,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2024-0228,service,2,PR-501,Nail Trim,3,22.00,66.00
+PO-2024-0228,service,3,LAB-204,Sick Patient Examination,1,45.00,45.00
+PO-2024-0228,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2023-0229,service,1,EX-102,Feline Leukemia Vaccination,1,75.00,75.00
+PO-2023-0229,service,2,LAB-204,Fecal Examination,2,45.00,90.00
+PO-2023-0229,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2023-0230,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2023-0230,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2023-0230,service,3,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2023-0230,service,4,PR-504,Subcutaneous Fluid Administration,2,45.00,90.00
+PO-2023-0230,product,1,SUP-701,Veterinary Dental Care Kit,1,30.00,30.00
+PO-2022-0231,service,1,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2022-0231,service,2,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0232,service,1,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0232,service,2,EX-104,Follow-Up Examination,1,45.00,60.00
+PO-2025-0232,service,3,LAB-203,Urinalysis,1,55.00,55.00
+PO-2024-0233,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0233,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0233,service,3,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2024-0233,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2022-0234,service,1,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2022-0234,service,2,EX-110,Mobility Assessment,1,80.00,90.00
+PO-2023-0235,service,1,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2023-0235,service,2,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2023-0235,service,3,EX-102,New Patient Examination,1,75.00,75.00
+PO-2023-0235,service,4,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2023-0235,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2024-0236,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0236,service,2,EX-110,Ear Examination,1,80.00,80.00
+PO-2024-0236,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2025-0237,service,1,PR-501,Nail Trim,2,22.00,44.00
+PO-2025-0237,service,2,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2025-0237,service,3,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2025-0237,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2022-0238,service,1,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0238,service,2,LAB-204,Fecal Examination,1,54.00,54.00
+PO-2024-0239,service,1,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2024-0239,service,2,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2024-0239,service,3,EX-109,Ear Examination,1,60.00,60.00
+PO-2024-0239,service,4,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2024-0239,product,1,MED-603,Ear Treatment Solution,1,24.00,24.00
+PO-2023-0240,service,1,EX-102,New Patient Examination,1,75.00,75.00
+PO-2023-0240,service,2,VAC-303,Feline Leukemia Vaccination,2,45.00,90.00
+PO-2023-0240,service,3,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2023-0240,service,4,PR-505,Microchip Placement,1,50.00,50.00
+PO-2022-0241,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0241,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2022-0241,service,3,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0242,service,1,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2025-0242,service,2,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0242,service,3,PR-505,Microchip Placement,1,50.00,50.00
+PO-2025-0242,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2024-0243,service,1,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2024-0243,service,2,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2024-0243,service,3,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2025-0244,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0244,service,2,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2025-0245,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0245,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0245,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2024-0246,service,1,EX-110,Mobility Assessment,1,80.00,75.00
+PO-2024-0246,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0246,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2024-0247,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0247,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2024-0247,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0248,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0248,service,2,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2023-0248,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0248,service,4,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0249,service,1,EX-109,Ear Examination,1,60.00,60.00
+PO-2025-0249,service,2,PR-501,Nail Trim,1,27.00,27.00
+PO-2025-0249,service,3,LAB-201,Complete Blood Count,1,75.00,85.00
+PO-2025-0249,product,1,MED-603,Ear Treatment Solution,1,24.00,24.00
+PO-2023-0250,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0250,service,2,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2023-0250,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2023-0251,service,1,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2023-0251,service,2,EX-109,Ear Examination,1,60.00,60.00
+PO-2023-0251,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0252,service,1,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2023-0252,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0252,service,3,LAB-202,Blood Chemistry Panel,1,110.00,117.00
+PO-2023-0252,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2025-0253,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0253,service,2,EX-107,Nutritional Consultation,1,55.00,55.00
+PO-2025-0253,service,3,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2023-0254,service,1,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2023-0254,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0254,service,3,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2023-0254,product,1,SUP-702,Recovery Collar,2,18.00,36.00
+PO-2025-0255,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0255,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0255,service,3,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2024-0256,service,1,LAB-202,Blood Chemistry Panel,2,110.00,220.00
+PO-2024-0256,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2024-0256,service,3,DEN-401,Dental Examination,1,55.00,50.00
+PO-2024-0256,product,1,SUP-701,Veterinary Dental Care Kit,1,30.00,30.00
+PO-2025-0257,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0257,service,2,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2025-0257,service,3,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2025-0257,service,4,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2025-0257,product,1,MED-602,Prescription Anti-Inflammatory Medication,2,32.00,64.00
+PO-2023-0258,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0258,service,2,LAB-203,Urinalysis,1,58.00,58.00
+PO-2023-0258,service,3,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2023-0258,service,4,PR-503,Anal Gland Expression,3,35.00,105.00
+PO-2023-0258,product,1,MED-603,Ear Treatment Solution,1,24.00,24.00
+PO-2025-0259,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0259,service,2,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0259,service,3,DEN-401,Dental Examination,1,55.00,55.00
+PO-2025-0259,service,4,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0259,service,5,DEN-402,Dental Cleaning,1,250.00,250.00
+PO-2022-0260,service,1,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2022-0260,service,2,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2022-0260,service,3,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2022-0260,service,4,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0261,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0261,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0261,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0261,service,4,DEN-401,Senior Cat Wellness Examination,1,55.00,55.00
+PO-2022-0262,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0262,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2022-0262,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2022-0262,service,4,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2023-0263,service,1,PR-505,Microchip Placement,1,50.00,50.00
+PO-2023-0263,service,2,PR-505,Microchip Placement,1,50.00,50.00
+PO-2023-0263,service,3,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2023-0263,service,4,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2025-0264,service,1,LAB-204,Fecal Examination,2,45.00,90.00
+PO-2025-0264,service,2,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2025-0264,service,3,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2025-0264,service,4,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2022-0265,service,1,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2022-0265,service,2,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0265,service,3,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2022-0265,service,4,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0266,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0266,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0266,service,3,EX-109,Ear Examination,1,60.00,60.00
+PO-2023-0266,service,4,LAB-204,Fecal Examination,2,45.00,90.00
+PO-2025-0267,service,1,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2025-0267,service,2,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0267,service,3,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0267,service,4,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2025-0267,service,5,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0268,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0268,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0268,service,3,EX-109,Ear Examination,1,60.00,60.00
+PO-2024-0269,service,1,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2024-0269,service,2,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2024-0269,product,1,SUP-702,Recovery Collar,1,30.00,30.00
+PO-2023-0270,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0270,service,2,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2023-0270,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0271,service,1,EX-107,Nutritional Consultation,1,55.00,55.00
+PO-2025-0271,service,2,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2024-0272,service,1,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2024-0272,service,2,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2024-0272,service,3,LAB-201,Complete Blood Count,1,87.00,87.00
+PO-2024-0272,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2024-0273,service,1,EX-109,Ear Examination,1,60.00,60.00
+PO-2024-0273,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0273,service,3,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2024-0273,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0274,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2025-0274,service,2,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0274,service,3,LAB-201,Complete Blood Count,3,75.00,225.00
+PO-2023-0275,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0275,service,2,LAB-204,Fecal Examination,2,45.00,90.00
+PO-2023-0275,service,3,EX-109,Ear Examination,1,60.00,60.00
+PO-2023-0275,product,1,MED-603,Ear Treatment Solution,1,24.00,24.00
+PO-2022-0276,service,1,LAB-205,Thyroid Screening,1,85.00,85.00
+PO-2022-0276,service,2,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2022-0276,service,3,PR-501,Nail Trim,1,22.00,22.00
+PO-2023-0277,service,1,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2023-0277,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0277,product,1,MED-602,Prescription Anti-Inflammatory Medication,1,32.00,32.00
+PO-2025-0278,service,1,EX-109,Ear Examination,1,60.00,60.00
+PO-2025-0278,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0279,service,1,EX-103,Sick Patient Examination,1,85.00,85.00
+PO-2022-0279,service,2,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2022-0279,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2023-0280,service,1,VAC-303,Feline Leukemia Vaccination,2,45.00,90.00
+PO-2023-0280,service,2,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0280,service,3,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2023-0280,product,1,MED-605,Flea Prevention Treatment,1,28.00,28.00
+PO-2024-0281,service,1,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0281,service,2,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2024-0281,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2024-0281,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2023-0282,service,1,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2023-0282,service,2,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2023-0282,service,3,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2024-0283,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2024-0283,service,2,EX-110,Mobility Assessment,1,80.00,80.00
+PO-2024-0283,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,45.00
+PO-2025-0284,service,1,EX-101,Annual Wellness Examination,1,65.00,65.00
+PO-2025-0284,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0284,service,3,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0284,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2025-0285,service,1,EX-109,Ear Examination,1,60.00,60.00
+PO-2025-0285,service,2,PR-502,Ear Cleaning,1,30.00,30.00
+PO-2025-0285,service,3,VAC-995,Nail Trim,1,22.00,22.00
+PO-2024-0286,service,1,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2024-0286,service,2,LAB-203,Urinalysis,1,55.00,55.00
+PO-2024-0286,product,1,MED-603,Ear Treatment Solution,1,24.00,24.00
+PO-2024-0287,service,1,PR-503,Anal Gland Expression,1,35.00,25.00
+PO-2024-0287,service,2,EX-109,Ear Examination,1,60.00,60.00
+PO-2024-0287,service,3,PR-504,Subcutaneous Fluid Administration,2,45.00,90.00
+PO-2024-0287,service,4,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2024-0287,product,1,MED-601,Prescription Antibiotic Tablets,1,28.00,28.00
+PO-2025-0288,service,1,EX-109,Sick Patient Examination,1,60.00,60.00
+PO-2025-0288,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0288,service,3,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2025-0288,product,1,MED-603,Ear Treatment Solution,1,24.00,24.00
+PO-2024-0289,service,1,EX-101,Nail Trim,1,65.00,65.00
+PO-2024-0289,service,2,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2024-0289,service,3,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2024-0289,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2022-0290,service,1,PR-501,Nail Trim,1,22.00,22.00
+PO-2022-0290,service,2,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2022-0291,service,1,LAB-201,Complete Blood Count,1,75.00,77.00
+PO-2022-0291,service,2,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2022-0291,product,1,SUP-702,Recovery Collar,1,23.00,23.00
+PO-2025-0292,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0292,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0292,service,3,EX-106,Behavioral Consultation,1,95.00,95.00
+PO-2023-0293,service,1,PR-502,Ear Cleaning,2,30.00,60.00
+PO-2023-0293,service,2,EX-108,Skin and Coat Examination,1,70.00,70.00
+PO-2023-0293,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2023-0293,service,4,PR-503,Anal Gland Expression,1,35.00,35.00
+PO-2023-0293,product,1,MED-604,Prescription Skin Treatment,1,38.00,38.00
+PO-2025-0294,service,1,LAB-203,Urinalysis,1,55.00,55.00
+PO-2025-0294,service,2,EX-104,Follow-Up Examination,1,45.00,45.00
+PO-2025-0294,service,3,PR-504,Subcutaneous Fluid Administration,1,45.00,47.00
+PO-2025-0294,product,1,MED-603,Ear Treatment Solution,2,24.00,48.00
+PO-2025-0295,service,1,LAB-204,Fecal Examination,1,45.00,45.00
+PO-2025-0295,service,2,PR-501,Nail Trim,1,22.00,22.00
+PO-2025-0295,service,3,LAB-201,Complete Blood Count,2,75.00,150.00
+PO-2025-0295,service,4,EX-102,New Patient Examination,1,75.00,75.00
+PO-2024-0296,service,1,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2024-0296,service,2,EX-102,Ear Examination,1,75.00,75.00
+PO-2024-0296,service,3,VAC-301,Rabies Vaccination,1,50.00,50.00
+PO-2024-0296,service,4,VAC-303,Feline Leukemia Vaccination,1,45.00,45.00
+PO-2024-0296,service,5,LAB-204,Fecal Examination,2,45.00,90.00
+PO-2024-0296,product,1,MED-605,Flea Prevention Treatment,1,25.00,25.00
+PO-2025-0297,service,1,VAC-301,Follow-Up Examination,1,35.00,35.00
+PO-2025-0297,service,2,PR-505,Microchip Placement,1,50.00,50.00
+PO-2025-0297,service,3,EX-102,New Patient Examination,1,75.00,75.00
+PO-2025-0297,product,1,MED-606,Deworming Medication,1,22.00,22.00
+PO-2025-0298,service,1,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0298,service,2,DEN-401,Dental Examination,1,55.00,55.00
+PO-2025-0298,service,3,LAB-202,Blood Chemistry Panel,1,110.00,110.00
+PO-2022-0299,service,1,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2022-0299,service,2,EX-105,Senior Cat Wellness Examination,1,90.00,90.00
+PO-2022-0299,service,3,LAB-201,Complete Blood Count,1,75.00,75.00
+PO-2025-0300,service,1,EX-102,New Patient Examination,1,75.00,75.00
+PO-2025-0300,service,2,VAC-301,Rabies Vaccination,1,35.00,35.00
+PO-2025-0300,service,3,VAC-302,FVRCP Vaccination,1,40.00,40.00
+PO-2025-0300,service,4,VAC-301,Rabies Vaccination,1,35.00,35.00

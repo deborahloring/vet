@@ -1,0 +1,58 @@
+{
+  "seed": 20261108,
+  "clients": 215,
+  "cats": 300,
+  "invoices": 300,
+  "line_items": 1081,
+  "findings": 515,
+  "confirmed_discrepancy_findings": 465,
+  "staff_review_findings": 50,
+  "outcomes": {
+    "discrepancy_identified": 200,
+    "no_discrepancy": 50,
+    "staff_review_required": 50
+  },
+  "findings_per_discrepant_invoice": {
+    "1": 25,
+    "2": 100,
+    "3": 60,
+    "4": 15
+  },
+  "primary_scenarios": {
+    "ambiguous_documentation": 20,
+    "code_description_conflict": 20,
+    "declined_service_billed": 30,
+    "discount_arithmetic": 10,
+    "duplicate_service": 30,
+    "insufficient_documentation": 20,
+    "line_arithmetic": 15,
+    "no_discrepancy": 50,
+    "quantity_documentation_conflict": 25,
+    "subtotal_arithmetic": 10,
+    "tax_arithmetic": 10,
+    "unit_price_mismatch": 20,
+    "unknown_code": 10,
+    "unsupported_billed_service": 30
+  },
+  "visit_archetypes": {
+    "Annual wellness": 33,
+    "Behavioral consultation": 35,
+    "Dental care": 33,
+    "Digestive concern": 18,
+    "Ear concern": 29,
+    "Follow-up": 35,
+    "Kitten and new patient": 26,
+    "Mobility assessment": 28,
+    "Senior wellness": 33,
+    "Skin and coat": 30
+  },
+  "discount_types": {
+    "courtesy": 69,
+    "none": 216,
+    "senior": 15
+  },
+  "time_period": [
+    "2022-01-01",
+    "2025-12-31"
+  ]
+}

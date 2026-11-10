@@ -1,0 +1,111 @@
+{
+  "purpose": "Kiosk copy. Hearthy's last introduction line is the approved handoff line (it tells the visitor where the terminal is) and must stay verbatim. Everything else here is a draft written for the owner's consolidated review.",
+  "status": "draft-pending-owner-review",
+  "hearthyIntro": [
+    "Welcome to Paws & Order. Mind the paperwork. We're understaffed.",
+    "If you have questions about your invoice Temperance can help you at the kiosk.",
+    "Temperance is next to the front desk, on the right-hand side."
+  ],
+  "rotatingMessages": [
+    "Temperance will escalate issues found on your behalf. No need to come back in for the same issue twice!",
+    "Recorded demonstrations are always available and never use one of your live reviews.",
+    "kioskware v16.2.17: If it ain't broke, don't fix it."
+  ],
+  "behindTheDesk": {
+    "subtitle": "A fictional cat hospital. A real AI engineering project.",
+    "intro": [
+      "Welcome behind the scenes of Paws & Order Cat Hospital!",
+      "Paws & Order Cat Hospital, its patients, and its paperwork are entirely fictional. The application behind them is real.",
+      "I'm Deborah Loring, a software engineer and technical business analyst. I created Paws & Order to explore how artificial intelligence can work alongside traditional software to solve business problems, explain its findings, and operate within practical security and cost constraints.",
+      "The setting is a cat hospital with a perpetually busy front desk, but the engineering challenges are the same ones organizations face when introducing AI into existing business processes."
+    ],
+    "sections": [
+      {
+        "heading": "Meet Temperance",
+        "blocks": [
+          "Temperance is an AI-powered invoice assistant.",
+          "Temperance examines fictional veterinary invoices, compares charges against the hospital's price list and billing rules, and reviews the documentation associated with each visit.",
+          "Her job is to identify possible discrepancies, explain the supporting evidence, and recognize when the available information isn't sufficient to reach a conclusion.",
+          "Temperance doesn't make billing decisions. Her findings are advisory, with final decisions reserved for human review."
+        ]
+      },
+      {
+        "heading": "How It Works",
+        "blocks": [
+          "Paws & Order combines two approaches to invoice validation.",
+          "**Traditional software** handles calculations and rules that can be checked reliably: prices, quantities, totals, discounts, taxes, and service codes.",
+          "**Google's Gemini AI** interprets the less structured information in veterinary visit notes. It helps identify services that were declined, charges that don't match documented treatment, and records that may need additional review.",
+          "The application checks the AI's findings against the available evidence before presenting a combined result.",
+          "Visitors see one assistant and one review, even though several components work together behind the terminal."
+        ]
+      },
+      {
+        "heading": "Putting Temperance to the Test",
+        "blocks": [
+          "I created a dataset of 300 synthetic veterinary invoices containing realistic combinations of correct charges, billing discrepancies, and incomplete documentation.",
+          "The dataset was divided into separate groups for development, independent evaluation, and visitor demonstrations.",
+          "During development, I used recorded results to identify problems and improve how the application interprets and validates evidence.",
+          "Once those changes were complete, I froze the evaluation setup and tested the system against 150 previously unseen invoices.",
+          "**Blind evaluation results:**",
+          {
+            "list": [
+              "150 invoices evaluated.",
+              "137 reviews completed successfully.",
+              "136 completed reviews received the correct outcome.",
+              "99.3% outcome accuracy among completed reviews.",
+              "13 reviews failed because of provider or connection errors."
+            ]
+          },
+          "These are synthetic test cases designed to be challenging, not a measure of accuracy on real invoices.",
+          "The results demonstrate strong classification performance on completed reviews while also revealing an important operational limitation: an accurate AI system still depends on the availability of its external services.",
+          "Both successes and failures are part of the project's evaluation."
+        ]
+      },
+      {
+        "heading": "Security, Privacy, and Responsible AI",
+        "blocks": [
+          "Paws & Order is an invitation-only demonstration protected by Cloudflare Access.",
+          "Sign-in is handled by Cloudflare Access; the application keeps only an anonymous daily count, not names or email addresses. Visitors make predefined selections and never type or upload anything in the application. Every invoice, patient, client, and visit note is synthetic.",
+          "The application also includes:",
+          {
+            "list": [
+              "Daily limits: 3 reviews per visitor and 50 shared, resetting at midnight Pacific Time.",
+              "Request pacing to prevent excessive AI calls.",
+              "Automatic pauses when the AI provider reports quota exhaustion.",
+              "Defined handling for interruptions and unsuccessful reviews.",
+              "Human oversight for all billing decisions."
+            ]
+          },
+          "These safeguards are intentional parts of the design, not simply restrictions added for the demonstration."
+        ]
+      },
+      {
+        "heading": "Technology Behind the Terminal",
+        "blocks": [
+          "Paws & Order was built using:",
+          {
+            "list": [
+              "**TypeScript** for billing validation, application logic, and API integration.",
+              "**Google Gemini** for interpreting clinical documentation.",
+              "**Cloudflare Workers** for hosting and server-side execution.",
+              "**Cloudflare Access** for authentication.",
+              "**Cloudflare Durable Objects and SQLite** for managing review allowances.",
+              "**Python and TypeScript testing tools** for creating, validating, and evaluating the synthetic dataset.",
+              "**HTML, CSS, JavaScript, and SVG** for the illustrated, accessible visitor experience."
+            ]
+          },
+          "Illustrations were created with AI assistance for this project.",
+          "AI-assisted development tools helped me build and refine the application, while the requirements, architecture, evaluation approach, and implementation decisions were directed through an iterative engineering process."
+        ]
+      },
+      {
+        "heading": "Beyond the Desk",
+        "blocks": [
+          "Paws & Order demonstrates more than an AI model answering questions.",
+          "It's an example of bringing together software engineering, business requirements, AI integration, security, testing, and operational controls to create a working application.",
+          "The fictional hospital gives the project its personality. The engineering behind it is the real story."
+        ]
+      }
+    ]
+  }
+}

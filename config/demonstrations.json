@@ -1,0 +1,285 @@
+{
+  "purpose": "Nine in-kiosk demonstration replays. Each recording is the model's structured reply for one visitor-pool invoice; the build replays it through the same billing engine, response checker and composer as a live review, and playback makes no model call and uses no live review. Demonstrations have no story; each goes straight to its recorded review. A demonstration stays labelled provisional until the owner approves it (approved: true) and its recording comes from a live run (source: live-recording).",
+  "demonstrations": [
+    {
+      "id": "demo-01",
+      "title": "Brave Pumpkin's dental visit",
+      "invoiceNo": "PO-2022-0210",
+      "approved": true,
+      "recording": {
+        "source": "live-recording",
+        "model": "gemini-3.5-flash-lite",
+        "recordedAt": "2026-11-09T05:28:53.735Z",
+        "rejectedClaims": 1,
+        "reply": {
+          "supportedFindings": [
+            {
+              "type": "unsupported_billed_service",
+              "section": "service",
+              "lineNumber": 2,
+              "code": "DEN-401",
+              "noteExcerpt": "No repeat of the dental examination was documented."
+            }
+          ],
+          "reviewNeeded": [],
+          "discountAuthorization": {
+            "status": "none",
+            "noteExcerpt": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "demo-02",
+      "title": "Mayor Acorn's senior wellness visit",
+      "invoiceNo": "PO-2025-0006",
+      "approved": true,
+      "recording": {
+        "source": "live-recording",
+        "model": "gemini-3.5-flash-lite",
+        "recordedAt": "2026-11-09T05:29:13.208Z",
+        "rejectedClaims": 0,
+        "reply": {
+          "supportedFindings": [],
+          "reviewNeeded": [],
+          "discountAuthorization": {
+            "status": "senior",
+            "noteExcerpt": "The senior wellness discount was approved for this visit."
+          }
+        }
+      }
+    },
+    {
+      "id": "demo-03",
+      "title": "Sir Pudding's behavioral consultation",
+      "invoiceNo": "PO-2024-0003",
+      "approved": true,
+      "recording": {
+        "source": "live-recording",
+        "model": "gemini-3.5-flash-lite",
+        "recordedAt": "2026-11-09T05:29:27.992Z",
+        "rejectedClaims": 0,
+        "reply": {
+          "supportedFindings": [
+            {
+              "type": "unsupported_billed_service",
+              "section": "service",
+              "lineNumber": 2,
+              "code": "LAB-205",
+              "noteExcerpt": "The owner opted not to proceed with thyroid screening."
+            },
+            {
+              "type": "quantity_documentation_conflict",
+              "section": "service",
+              "lineNumber": 4,
+              "code": "VAC-301",
+              "noteExcerpt": "The chart records one rabies vaccination for this visit."
+            }
+          ],
+          "reviewNeeded": [],
+          "discountAuthorization": {
+            "status": "courtesy",
+            "noteExcerpt": "A $10 courtesy discount was authorized at checkout."
+          }
+        }
+      }
+    },
+    {
+      "id": "demo-04",
+      "title": "Buttons's skin and coat visit",
+      "invoiceNo": "PO-2022-0012",
+      "approved": true,
+      "recording": {
+        "source": "live-recording",
+        "model": "gemini-3.5-flash-lite",
+        "recordedAt": "2026-11-09T05:31:39.115Z",
+        "rejectedClaims": 1,
+        "reply": {
+          "supportedFindings": [
+            {
+              "type": "unsupported_billed_service",
+              "section": "service",
+              "lineNumber": 2,
+              "code": "PR-503",
+              "noteExcerpt": "Consent was not given for anal gland expression; it was not performed."
+            },
+            {
+              "type": "duplicate_service",
+              "section": "service",
+              "lineNumber": 3,
+              "code": "LAB-201",
+              "noteExcerpt": "Complete Blood Count was performed twice during the visit."
+            },
+            {
+              "type": "unsupported_billed_service",
+              "section": "service",
+              "lineNumber": 5,
+              "code": "PR-501",
+              "noteExcerpt": "The nail trim entry was canceled before care."
+            }
+          ],
+          "reviewNeeded": [],
+          "discountAuthorization": {
+            "status": "none",
+            "noteExcerpt": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "demo-05",
+      "title": "Moonbeam's follow-up visit",
+      "invoiceNo": "PO-2022-0260",
+      "approved": true,
+      "recording": {
+        "source": "live-recording",
+        "model": "gemini-3.5-flash-lite",
+        "recordedAt": "2026-11-09T05:29:58.824Z",
+        "rejectedClaims": 0,
+        "reply": {
+          "supportedFindings": [
+            {
+              "type": "duplicate_service",
+              "section": "service",
+              "lineNumber": 2,
+              "code": "PR-502",
+              "noteExcerpt": "No repeat of the ear cleaning was documented."
+            },
+            {
+              "type": "declined_service_billed",
+              "section": "service",
+              "lineNumber": 4,
+              "code": "PR-504",
+              "noteExcerpt": "Subcutaneous Fluid Administration was discussed and declined before treatment."
+            }
+          ],
+          "reviewNeeded": [],
+          "discountAuthorization": {
+            "status": "courtesy",
+            "noteExcerpt": "A $10 courtesy reduction was approved by the front desk."
+          }
+        }
+      }
+    },
+    {
+      "id": "demo-06",
+      "title": "Duchess Saffron's ear visit",
+      "invoiceNo": "PO-2024-0051",
+      "approved": true,
+      "recording": {
+        "source": "live-recording",
+        "model": "gemini-3.5-flash-lite",
+        "recordedAt": "2026-11-09T05:30:15.614Z",
+        "rejectedClaims": 0,
+        "reply": {
+          "supportedFindings": [
+            {
+              "type": "declined_service_billed",
+              "section": "service",
+              "lineNumber": 1,
+              "code": "LAB-201",
+              "noteExcerpt": "The client declined the proposed complete blood count."
+            }
+          ],
+          "reviewNeeded": [],
+          "discountAuthorization": {
+            "status": "none",
+            "noteExcerpt": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "demo-07",
+      "title": "Wiggly Truffle's first visit",
+      "invoiceNo": "PO-2024-0103",
+      "approved": true,
+      "recording": {
+        "source": "live-recording",
+        "model": "gemini-3.5-flash-lite",
+        "recordedAt": "2026-11-09T05:30:35.033Z",
+        "rejectedClaims": 1,
+        "reply": {
+          "supportedFindings": [
+            {
+              "type": "unsupported_billed_service",
+              "section": "service",
+              "lineNumber": 2,
+              "code": "EX-102",
+              "noteExcerpt": "Patient evaluated for kitten and new patient; findings reviewed."
+            }
+          ],
+          "reviewNeeded": [],
+          "discountAuthorization": {
+            "status": "courtesy",
+            "noteExcerpt": "A $10 courtesy discount was authorized at checkout."
+          }
+        }
+      }
+    },
+    {
+      "id": "demo-08",
+      "title": "Boba's mobility assessment",
+      "invoiceNo": "PO-2023-0212",
+      "approved": true,
+      "recording": {
+        "source": "live-recording",
+        "model": "gemini-3.5-flash-lite",
+        "recordedAt": "2026-11-09T05:30:49.834Z",
+        "rejectedClaims": 0,
+        "reply": {
+          "supportedFindings": [],
+          "reviewNeeded": [
+            {
+              "type": "ambiguous_documentation",
+              "section": "service",
+              "lineNumber": 1,
+              "code": "LAB-202",
+              "noteExcerpt": "Blood Chemistry Panel was considered; final completion status is unclear."
+            }
+          ],
+          "discountAuthorization": {
+            "status": "courtesy",
+            "noteExcerpt": "The client was granted the $10 courtesy discount."
+          }
+        }
+      }
+    },
+    {
+      "id": "demo-09",
+      "title": "Baby Pudding's digestive visit",
+      "invoiceNo": "PO-2025-0267",
+      "approved": true,
+      "recording": {
+        "source": "live-recording",
+        "model": "gemini-3.5-flash-lite",
+        "recordedAt": "2026-11-09T05:31:05.707Z",
+        "rejectedClaims": 1,
+        "reply": {
+          "supportedFindings": [
+            {
+              "type": "duplicate_service",
+              "section": "service",
+              "lineNumber": 5,
+              "code": "PR-504",
+              "noteExcerpt": "A second subcutaneous fluid administration was required and completed."
+            }
+          ],
+          "reviewNeeded": [
+            {
+              "type": "insufficient_documentation",
+              "section": "service",
+              "lineNumber": 3,
+              "code": "LAB-203",
+              "noteExcerpt": "The record for urinalysis is awaiting clinician sign-off."
+            }
+          ],
+          "discountAuthorization": {
+            "status": "courtesy",
+            "noteExcerpt": "A $10 courtesy reduction was approved by the front desk."
+          }
+        }
+      }
+    }
+  ]
+}
